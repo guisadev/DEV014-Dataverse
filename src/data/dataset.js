@@ -1,375 +1,384 @@
 export default [
   {
-    "id": "ada-lovelace",
-    "name": "Ada Lovelace",
-    "shortDescription": "Pionera en la programación, primera programadora de la historia.",
-    "description": "Una visionaria matemática británica del siglo XIX, es aclamada como la primera programadora de la historia. Su colaboración con Charles Babbage en la creación de la Máquina Analítica la llevó a desarrollar algoritmos, incluyendo el famoso \"algoritmo de Bernoulli\", destinados a ser procesados por una máquina. Su visión pionera la convirtió en una figura fundamental en la informática y la inteligencia artificial. Lovelace demostró que las computadoras podían ir más allá de simples cálculos matemáticos, anticipando un mundo donde la programación sería esencial en la resolución de problemas complejos, dejando una huella imborrable en la ciencia y la tecnología.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/ada-lovelace.jpg",
+    "id": "cafe-espresso",
+    "name": "Café espresso",
+    "shortDescription": "Esta preparación tiene una relación de agua y café 1:2.",
+    "description": "Se popularizó gracias al desarrollo y perfeccionamiento de la máquina de espresso por parte de Luigi Bezzera en 1901. Esta máquina permitía una extracción rápida y bajo presión del café molido, produciendo una bebida concentrada y sabrosa que se convirtió en un símbolo de la cultura del café italiana. El término proviene del italiano y significa 'exprimido' haciendo referencia al proceso de extracción del café bajo presión. La creación del espresso revolucionó la forma en que se preparaba y consumía el café, dando lugar a una bebida más concentrada y más intensa que las preparaciones de café tradicionales.",
+    "imageUrl": "img.jpg/espresso.jpg",
     "facts": {
-      "yearOfBirth": "1815",
-      "yearOfDeath": "1852",
-      "birthPlace": "Londres, Reino Unido",
-      "mainField": "Ciencia de la Computación"
+      "origen": "Italia, Milán",
+      "tiempoDeExtraccion": "25-35 segundos aproximadamente.",
+      "molienda": "Superfina",
+      "contenido": "dosis de café y agua mineralizada."
     },
     "extraInfo": {
-      "imageSource": "https://www.bing.com/images/create/genera-una-imagen-de-ada-lovelace2c-la-primera-prog/650a1eff8ff04b88833d5cdef0309441"
+      "imageSource": "img.jpg/espresso.jpg"
     }
   },
   {
-    "id": "emmy-noether",
-    "name": "Emmy Noether",
-    "shortDescription": "Matemática destacada, teorema fundamental en álgebra abstracta.",
-    "description": "Una brillante matemática alemana, revolucionó la física teórica con sus contribuciones al teorema de conservación de la energía y el teorema de Noether, fundamentales en la teoría de la relatividad y la mecánica cuántica. A pesar de los obstáculos que enfrentó como mujer en la academia, sus investigaciones en álgebra abstracta y teoría de grupos son fundamentales en la física moderna. Su capacidad para unificar conceptos matemáticos y físicos marcó un hito en la historia de la ciencia, allanando el camino para futuras generaciones de científicas.",
+    "id": "Cappu",
+    "name": "Cappuccino o cortado",
+    "shortDescription": "Esta es una de las preparaciones de café más popular y controversial.",
+    "description": "El cappuccino tradicionalmente se compone de partes iguales de espresso, leche vaporizada y espuma de leche. La leche vaporizada se vierte primero sobre el espresso, y luego se agrega la espuma de leche en la parte superior. La espuma de leche suele estar decorada con un toque de cacao en polvo o canela. Esta bebida se popularizó en Italia durante el siglo XX y se convirtió en una opción favorita en las cafeterías italianas y posteriormente en todo el mundo. Hoy en día, el cappuccino es una de las bebidas de café más consumidas en todo el mundo.",
     "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/emmy-noether.jpg",
     "facts": {
-      "yearOfBirth": "1882",
-      "yearOfDeath": "1935",
-      "birthPlace": "Erlangen, Alemania",
-      "mainField": "Matemáticas"
+      "origen": "Italia",
+      "tiempoDeExtraccion": "25-35 segundos aproximadamente.",
+      "molienda": "Superfina",
+      "contenido": "dosis de espresso y leche emulsionada."
     },
     "extraInfo": {
       "imageSource": "https://www.bing.com/images/create/create-an-image-of-of-a-german-woman2c-a-pioneering/6510ddb1e8254b928b8f8f1d5e95fea4"
     }
   },
   {
-    "id": "hypatia-de-alejandria",
-    "name": "Hypatia de Alejandría",
-    "shortDescription": "Matemática y filósofa en la antigua Alejandría.",
-    "description": "Filósofa y matemática en la antigua Alejandría, desafió las normas de género de su época al destacar en una sociedad dominada por hombres. Su legado incluye importantes contribuciones a la geometría y la astronomía, así como su destacado papel como maestra y defensora del conocimiento en una época de agitación política. Hypatia demostró que las mujeres podían sobresalir en campos intelectuales y su valentía al mantener sus creencias filosóficas la convierte en un símbolo de resistencia y sabiduría en la historia de la ciencia.",
+    "id": "Mocca",
+    "name": "Mocaccino",
+    "shortDescription": "El café caliente más dulce por sus propios ingredientes.",
+    "description": "Se compone típicamente de espresso, leche vaporizada, chocolate y espuma de leche. Esta combinación crea una bebida que es una variante del café latte, con un toque de chocolate añadido. A menudo se sirve adornada con un toque de cacao en polvo o rallado en la parte superior. Se ha convertido en una bebida popular en cafeterías y establecimientos de café en todo el mundo, y su popularidad ha llevado a muchas variaciones y interpretaciones diferentes de la receta original.",
     "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/hypatia-de-alejandria.jpg",
     "facts": {
-      "yearOfBirth": "circa 360",
-      "yearOfDeath": "415",
-      "birthPlace": "Alejandría, Egipto",
-      "mainField": "Matemáticas, Filosofía"
+      "origen": "Italia",
+      "tiempoDeExtraccion": "25-35 aproximadamente.",
+      "molienda": "Superfina",
+      "contenido": "dosis de espresso, leche emulsionada, chocolate."
     },
     "extraInfo": {
       "imageSource": "https://www.bing.com/images/create/create-a-vivid-digital-artwork-or-painting-that-de/6510df0ebe1a4807af22175452761e1a"
     }
   },
   {
-    "id": "marjorie-lee-browne",
-    "name": "Marjorie Lee Browne",
-    "shortDescription": "Matemática, contribuyó a la teoría de números.",
-    "description": "Matemática estadounidense, destacó en una época en la que las mujeres afroamericanas enfrentaban múltiples barreras en la educación superior. No solo obtuvo su doctorado en matemáticas, sino que también se convirtió en una destacada educadora, promoviendo la diversidad en las ciencias matemáticas y desafiando la discriminación racial y de género. Su compromiso con la educación y su capacidad para inspirar a futuras generaciones la convierten en un modelo a seguir para las mujeres en la ciencia, dejando una huella perdurable en la historia académica.",
+    "id": "Latte",
+    "name": "Latte",
+    "shortDescription": "Una de las bebidas más populares en cafeterías de todo el mundo.",
+    "description": "Se compone típicamente de espresso y leche vaporizada, con una pequeña cantidad de espuma de leche en la parte superior. La proporción de leche al espresso puede variar según las preferencias personales, pero generalmente es más alta en leche que en espresso. Se cree que el latte se popularizó en Italia durante la segunda mitad del siglo XX, y su consumo se ha extendido a muchos otros países desde entonces. Hoy en día, es una de las bebidas de café más consumidas en todo el mundo y es un elemento básico en los menús de las cafeterías.",
     "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/marjorie-lee-browne.jpg",
     "facts": {
-      "yearOfBirth": "1914",
-      "yearOfDeath": "1979",
-      "birthPlace": "Memphis, Estados Unidos",
-      "mainField": "Matemáticas"
+      "origen": "Italia",
+      "tiempoDeExtraccion": "25-35 segundos aproximadamente.",
+      "molienda": "Superfina",
+      "mainField": "dosis de café espresso y leche emulsionada."
     },
     "extraInfo": {
       "imageSource": "https://www.bing.com/images/create/design-an-inspiring-and-historically-accurate-imag/6510df7e7bb745f69d67f695441607a8"
     }
   },
   {
-    "id": "shakuntala-devi",
-    "name": "Shakuntala Devi",
-    "shortDescription": "Matemática prodigio, conocida como la 'Calculadora Humana'.",
-    "description": "Conocida como \"la bruja de las matemáticas\" de la India, dejó una marca indeleble en el mundo de los números. Su capacidad mental asombrosa la llevó a resolver complejos cálculos matemáticos mentalmente en cuestión de segundos, estableciendo récords mundiales. Además de su talento innato, Devi promovió activamente la educación matemática y luchó por la igualdad de género en un país donde las mujeres enfrentaban desafíos en la ciencia y la educación. Su legado destaca el poder de la mente humana y la importancia de la igualdad de oportunidades en la ciencia.",
+    "id": "Macciato",
+    "name": "Macciato o manchado",
+    "shortDescription": "Ideal para aquellos que quieren un final intenso pero de comienzo apaciguante.",
+    "description": "Se prepara tradicionalmente con un solo espresso al que se le agrega una pequeña cantidad de leche vaporizada o espumada, lo que 'mancha' el espresso con una capa de leche. Esto resulta en una bebida que es más fuerte que un café con leche pero menos intensa que un latte. El macchiato se originó en Italia, donde se convirtió en una opción popular en las cafeterías y bares locales. Con el tiempo, su popularidad se extendió a otros países y se ha convertido en una bebida común en muchas cafeterías de todo el mundo.",
     "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/shakuntala-devi.jpg",
     "facts": {
-      "yearOfBirth": "1929",
-      "yearOfDeath": "2013",
-      "birthPlace": "Bangalore, India",
-      "mainField": "Matemáticas"
+      "origen": "Italia",
+      "tiempoDeExtraccion": "25-35 segundos aproximadamente.",
+      "molienda": "Superfina",
+      "contenido": "dosis de espresso y espuma de leche."
     },
     "extraInfo": {
       "imageSource": "https://www.bing.com/images/create/indian-woman-writing-math-problems-in-a-blackbard-/6510e19f3db54e14b365b7e8dc5045f6"
     }
   },
   {
-    "id": "sofia-kovalevskaya",
-    "name": "Sofia Kovalevskaya",
-    "shortDescription": "Matemática y escritora, contribuyó a la teoría de funciones.",
-    "description": "Matemática rusa del siglo XIX, dejó una marca indeleble en la ciencia del siglo XIX al desafiar las barreras de género. Como matemática rusa, superó las restricciones sociales de su época para convertirse en la primera mujer en obtener un doctorado en matemáticas en Europa. Sus contribuciones a la teoría de las ecuaciones diferenciales y la mecánica revolucionaron la disciplina, abriendo nuevas perspectivas en el análisis matemático. Su destacada membresía en la Academia de Ciencias de Suecia marcó un hito en la historia de las mujeres en la ciencia.",
+    "id": "Flat-White",
+    "name": "Flat-white",
+    "shortDescription": "Tiene una ligera cantidad de crema en la superficie.",
+    "description": "En general, el Flat White se compone de un doble ristretto, servido en una taza de cerámica, y cubierto con una capa de leche al vapor. La leche al vapor utilizada en un Flat White es más sedosa y menos espumosa que la que se utiliza en un café con leche o un capuchino, lo que resulta en una bebida más suave y menos pesada. Se cree que el Flat White se originó en la década de 1980 en Australia o Nueva Zelanda, donde se convirtió rápidamente en una opción popular en las cafeterías de ambos países.",
     "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/sofia-kovalevskaya.jpg",
     "facts": {
-      "yearOfBirth": "1850",
-      "yearOfDeath": "1891",
-      "birthPlace": "Moscú, Rusia",
-      "mainField": "Matemáticas"
+      "origen": "Australia y Nueva Zelanda",
+      "tiempoDeExtraccion": "10-20 segundos aproximadamente.",
+      "molienda": "Superfina",
+      "contenido": "dosis de ristretto y leche emulsionada."
     },
     "extraInfo": {
       "imageSource": "https://www.bing.com/images/create/indian-woman-writing-math-problems-in-a-blackbard-/6510e19f3db54e14b365b7e8dc5045f6"
     }
   },
   {
-    "id": "yoko-shimomura",
-    "name": "Yoko Shimomura",
-    "shortDescription": "Compositora de música, destacada en la industria de los videojuegos.",
-    "description": "Compositora japonesa, es una figura destacada en la ciencia de la música y el arte sonoro. Aunque no se dedica a la ciencia en el sentido tradicional, su trabajo en la composición musical ha requerido un profundo entendimiento de la teoría musical y la tecnología de audio. Ha contribuido de manera significativa a la industria de los videojuegos, componiendo icónicas bandas sonoras que han enriquecido la experiencia de juego. Su éxito en un campo donde las mujeres estaban subrepresentadas la convierte en un modelo a seguir, incluso en campos no convencionales como la composición musical.",
+    "id": "Lungo",
+    "name": "Lungo",
+    "shortDescription": "Uno de sus nombres lo cataloga por su intensidad.",
+    "description": "El lungo se originó como una variación del espresso en Italia, donde los consumidores a menudo prefieren una bebida de café más suave y menos concentrada. Para lograr esto, se extrajo el espresso utilizando más agua que la cantidad estándar, lo que resultó en una bebida más diluida pero aún con el sabor y la fuerza del espresso. Es apreciado por aquellos que prefieren un café más suave y menos concentrado que el espresso tradicional, pero aún disfrutan del sabor distintivo y el aroma del café espresso.",
     "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/yoko-shimomura.jpg",
     "facts": {
-      "yearOfBirth": "1967",
-      "birthPlace": "Hyogo, Japón",
-      "mainField": "Composición Musical, Video Juegos"
+      "origen": "Italia",
+      "tiempoDeExtraccion": "25-35 segundos aproximadamente.",
+      "molienda": "Super-fina",
+      "contenido": "dosis de espresso y agua caliente"
     },
     "extraInfo": {
       "imageSource": "https://www.bing.com/images/create/yoko-shimomura-making-music-for-a-video-game-in-19/6510e40dd1eb45d0906e8c1f4bb601d3"
     }
   },
   {
-    "id": "maryam-mirzakhani",
-    "name": "Maryam Mirzakhani",
-    "shortDescription": "Matemática, ganadora del Premio Fields.",
-    "description": "Matemática iraní, hizo historia al convertirse en la primera mujer en ganar la Medalla Fields, el premio más prestigioso en matemáticas. Sus investigaciones en la geometría de superficies y la teoría de las superficies de Riemann han tenido un impacto duradero en la matemática pura. A lo largo de su carrera, Mirzakhani inspiró a muchas mujeres a perseguir carreras en ciencia y matemáticas, derribando las barreras de género. Su enfoque innovador y su capacidad para resolver problemas complejos la convierten en un modelo a seguir para la comunidad científica y en un símbolo de la excelencia matemática.",
+    "id": "Americano",
+    "name": "Americano",
+    "shortDescription": "Se creía que los soldados estadounidenses popularizaron este método.",
+    "description": "La preparación de café conocida como 'Americano' se originó durante la Segunda Guerra Mundial en Europa, específicamente en Italia. Durante este tiempo, soldados estadounidenses estacionados en Italia encontraron el espresso italiano demasiado fuerte para su gusto y comenzaron a diluirlo con agua caliente para crear una bebida más suave y similar al café al que estaban acostumbrados en casa. Su sabor suave y fácil de beber lo convierte en una opción popular tanto para los amantes del café fuerte como para aquellos que prefieren un café más suave.",
     "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/maryam-mirzakhani.jpg",
     "facts": {
-      "yearOfBirth": "1977",
-      "yearOfDeath": "2017",
-      "birthPlace": "Teherán, Irán",
-      "mainField": "Matemáticas"
+      "origen": "Italia",
+      "tiempoDeExtraccion": "25-35 segundos aproximadamente.",
+      "molienda": "Superfina",
+      "contenido": "dosis de espresso y abundante agua caliente."
     },
     "extraInfo": {
       "imageSource": "https://chalkdustmagazine.com/features/mathematics-maryam-mirzakhani/"
     }
   },
   {
-    "id": "adele-goldberg",
-    "name": "Adele Goldberg",
-    "shortDescription": "Informática pionera, co-creadora del lenguaje de programación Smalltalk.",
-    "description": "Informática estadounidense reconocida por su influyente trabajo en la investigación y desarrollo de la programación orientada a objetos. Su contribución más destacada es la creación del lenguaje de programación Smalltalk, que revolucionó la forma en que se desarrollan software y sistemas informáticos. Goldberg ha sido una defensora incansable de la usabilidad y la accesibilidad en la informática, asegurando que las aplicaciones informáticas sean más amigables para los usuarios. Su trabajo ha allanado el camino para una programación más intuitiva y eficiente, y su legado perdura en la industria de la tecnología.",
+    "id": "Long-black",
+    "name": "Long-black",
+    "shortDescription": "Podría ser un americano, pero no, difieren en el orden de su contenido.",
+    "description": "La preparación de café tiene sus raíces en Australia y Nueva Zelanda. En un 'Long Black', se vierte un solo o doble espresso sobre agua caliente, mientras que en un 'Americano', se vierte agua caliente sobre un solo o doble espresso. Esta diferencia en el orden de preparación afecta el sabor y la textura de la bebida, dando al Long Black un perfil de sabor más robusto y una crema más intacta en comparación con el Americano. Se desarrolló como una alternativa al café espresso que era más suave y menos concentrado.",
     "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/adele-goldberg.jpg",
     "facts": {
-      "yearOfBirth": "1945",
-      "birthPlace": "Chicago, Estados Unidos",
-      "mainField": "Ciencias de la Computación"
+      "origen": "Australia y Nueva Zelanda",
+      "tiempoDeExtraccion": "25-35 segundos aproximadamente.",
+      "molienda": "Superfina",
+      "contenido": "agua caliente y dosis doble de espresso."
     },
     "extraInfo": {
       "imageSource": "https://pionerasinformaticas.ujaen.es/en/computer-women-pioneers/adele-goldberg-en"
     }
   },
   {
-    "id": "barbara-liskov",
-    "name": "Barbara Liskov",
-    "shortDescription": "Científica de la computación, pionera en programación orientada a objetos.",
-    "description": "Pionera de la informática, es conocida por su trabajo en la programación y la arquitectura de sistemas distribuidos. Fue la primera mujer en obtener un doctorado en ciencias de la computación en el Instituto de Tecnología de Stanford y desarrolló el lenguaje de programación CLU, que estableció fundamentos para la programación orientada a objetos. Liskov ha dejado una marca indeleble en la industria de la tecnología al liderar avances en sistemas de almacenamiento y seguridad informática. Su enfoque en la fiabilidad y la robustez ha influido en el diseño de sistemas críticos en todo el mundo.",
+    "id": "Ristretto",
+    "name": "Ristretto",
+    "shortDescription": "Un shot de intensidad.",
+    "description": "El ristretto es una preparación de café originaria de Italia. La palabra 'ristretto' en italiano significa 'restringido' o 'limitado', lo que se refiere a la cantidad de agua que se utiliza para extraer el café. La técnica del ristretto implica usar la misma cantidad de café molido que para un espresso tradicional, pero con menos agua y un tiempo de extracción más corto. Esto resulta en una bebida más concentrada y con un sabor más intenso que el espresso estándar. Se considera una de las formas más puras de disfrutar del sabor natural del café espresso.",
     "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/barbara-liskov.jpg",
     "facts": {
-      "yearOfBirth": "1939",
-      "birthPlace": "Los Angeles, Estados Unidos",
-      "mainField": "Ciencia de la Computación"
+      "origen": "Italia",
+      "tiempoDeExtraccion": "10-20 segundos aproximadamente.",
+      "molienda": "Super-fina.",
+      "contenido": "doble shot de café."
     },
     "extraInfo": {
       "imageSource": "https://medium.com/a-computer-of-ones-own/barbara-liskov-inventor-of-abstract-data-types-9f8908fdcf86"
     }
   },
   {
-    "id": "grace-hopper",
-    "name": "Grace Hopper",
-    "shortDescription": "Científica de la computación, creadora del primer compilador.",
-    "description": "Una de las pioneras de la informática, es famosa por su contribución al desarrollo del primer compilador y al lenguaje de programación COBOL. Además, desafió los estereotipos de género en la década de 1940 al unirse a la Marina de los Estados Unidos y convertirse en la primera programadora de la computadora Harvard Mark I. Su legado abarca la creación de conceptos cruciales como la \"depuración de software\" y su influencia en el desarrollo de la informática moderna, estableciendo estándares para la programación de alto nivel y la innovación tecnológica.",
+    "id": "Kalita",
+    "name": "kalita-wave",
+    "shortDescription": "Wave, se debe a su traducción de ola de mar que simula las estrías del filtro.",
+    "description": "Fue desarrollada por la empresa japonesa Kalita Co., que es conocida por sus productos de alta calidad para la preparación de café y té. Se caracteriza por su diseño único de filtro con ondas y su fondo plano. Estos filtros de papel especiales están diseñados para promover una extracción uniforme y consistente del café, permitiendo un flujo de agua controlado y una distribución uniforme del café molido. El diseño del fondo plano también contribuye a una extracción más uniforme al permitir que el agua permanezca en contacto con el café durante un período de tiempo más largo.",
     "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/grace-hopper.jpg",
     "facts": {
-      "yearOfBirth": "1906",
-      "yearOfDeath": "1992",
-      "birthPlace": "Nueva York, Estados Unidos",
-      "mainField": "Ciencia de la Computación"
+      "origen": "EEUU",
+      "tiempoDeExtraccion": "10-15 minutos aproximadamente.",
+      "molienda": "media.",
+      "contenido": "café en grano de molienda específica y agua mineralizada."
     },
     "extraInfo": {
       "imageSource": "https://photos.com/featured/grace-hopper-with-early-computer-bettmann.html"
     }
   },
   {
-    "id": "margaret-hamilton",
-    "name": "Margaret Hamilton",
-    "shortDescription": "Científica de la computación, lideró desarrollo de software para Apollo 11.",
-    "description": "Destacada científica de la computación que desempeñó un papel fundamental en el programa Apollo de la NASA. Fue directora de la División de Ingeniería de Software en el Laboratorio de Instrumentación del MIT, donde desarrolló el concepto de \"ingeniería de software\". Su liderazgo en el desarrollo del software de vuelo para las misiones Apollo fue fundamental para el éxito de la llegada del hombre a la Luna. Hamilton es un ejemplo de cómo la tecnología y la ciencia pueden alcanzar logros extraordinarios cuando se combinan con un enfoque innovador y una visión audaz.",
+    "id": "v60",
+    "name": "Dripper v60",
+    "shortDescription": "Fue desarrollada por la empresa japonesa Hario.",
+    "description": "La V60 toma su nombre de su forma en V y los 60 grados de ángulo de inclinación de su cono interno. Este diseño único permite un control preciso sobre la velocidad y el flujo del agua durante el proceso de preparación, lo que resulta en una extracción más uniforme y consistente de los sabores y aromas del café. Aunque la V60 se originó en Japón, rápidamente se extendió a otros países y se convirtió en una herramienta imprescindible para los baristas y entusiastas del café en todo el mundo.",
     "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/margaret-hamilton.jpg",
     "facts": {
-      "yearOfBirth": "1936",
-      "birthPlace": "Paoli, Indiana, Estados Unidos",
-      "mainField": "Ciencia de la Computación"
+      "origen": "EEUU",
+      "tiempoDeExtraccion": "10-15 minutos aproximadamente.",
+      "molienda": "media-fina.",
+      "contenido": "café en grano de molienda específica y agua mineralizada"
     },
     "extraInfo": {
       "imageSource": "https://odetta.ai/blogs/margaret-hamilton-the-first-software-engineer"
     }
   },
   {
-    "id": "radia-perlman",
-    "name": "Radia Perlman",
-    "shortDescription": "Ingeniera de redes, inventora del algoritmo Spanning Tree.",
-    "description": "Científica de la computación estadounidense, ha dejado una marca indeleble en el mundo de las redes informáticas y la seguridad. Conocida como \"la madre de Internet\", su invención del algoritmo Spanning Tree Protocol (STP) revolucionó la conectividad de redes y sentó las bases para la infraestructura de Internet moderna. A pesar de operar en un campo dominado por hombres, Perlman ha demostrado que las mujeres pueden liderar avances tecnológicos vitales. Su compromiso con la resiliencia de las redes y la ciberseguridad ha influido en la estabilidad y confiabilidad de la comunicación en línea.",
+    "id": "Chemex",
+    "name": "Chemex",
+    "shortDescription": "Este método de extracción por goteo es tan refinado como su diseño.",
+    "description": "fue desarrollado por el químico alemán Dr. Peter Schlumbohm en 1941. Aunque él era un inventor y científico, su interés en la preparación de café surgió de su deseo de crear una cafetera que fuera estéticamente atractiva, funcional y que produjera una taza de café de alta calidad. El diseño distintivo de la Chemex, con su forma de reloj de arena y cuello de cisne, se basó en los principios de la química y la física que logra controlar el flujo de agua durante el proceso de preparación.",
     "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/radia-perlman.jpg",
     "facts": {
-      "yearOfBirth": "1951",
-      "birthPlace": "Portsmouth, Estados Unidos",
-      "mainField": "Ciencia de la Computación"
+      "origen": "Alemania",
+      "tiempoDeExtraccion": "10-15 minutos aproximadamente.",
+      "molienda": "media-gruesa",
+      "contenido": "café en grano de molienda específica y agua mineralizada"
     },
     "extraInfo": {
       "imageSource": "https://hackaday.com/2018/05/29/spanning-the-tree-dr-radia-perlman-untangling-networks/"
     }
   },
   {
-    "id": "shafi-goldwasser",
-    "name": "Shafi Goldwasser",
-    "shortDescription": "Científica de la computación, ganadora del Premio Turing.",
-    "description": "Es una destacada criptógrafa y científica de la computación que ha contribuido significativamente a la teoría de la computación y la seguridad de la información. Su trabajo en criptografía de probabilidad y complejidad computacional ha sentado las bases para la seguridad en línea y la privacidad de datos en un mundo cada vez más digitalizado. Goldwasser es un ejemplo de cómo la ciencia de la computación puede abordar desafíos contemporáneos y proteger la información en la era de la información.",
+    "id": "Aeropress",
+    "name": "Aeropress",
+    "shortDescription": "Distinguida es por su caída en la extracción en forma de lluvia.",
+    "description": "La AeroPress se originó en California, Estados Unidos, donde Adler ideó y desarrolló el dispositivo como una alternativa portátil y fácil de usar para hacer café de alta calidad. La inspiración detrás de la AeroPress fue buscar un método de preparación de café que produjera una taza de café rápida, limpia y sabrosa, utilizando presión de aire para forzar el agua a través del café molido. Su diseño compacto y portátil lo hace ideal para viajar o para aquellos que desean hacer café de alta calidad en cualquier lugar.",
     "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/shafi-goldwasser.jpg",
     "facts": {
-      "yearOfBirth": "1958",
-      "birthPlace": "Nueva York, Estados Unidos",
-      "mainField": "Ciencia de la Computación"
+      "origen": "EEUU",
+      "tiempoDeExtraccion": "10-15 minutos aproximadamente.",
+      "molienda": "fina o media-fina",
+      "contenido": "café en grano de molienda específica y agua mineralizada"
     },
     "extraInfo": {
       "imageSource": "https://www.jahresbericht2019.unibe.ch/successes_2019/einstein_lectures/index_eng.html"
     }
   },
   {
-    "id": "chien-shiung-wu",
-    "name": "Chien-Shiung Wu",
-    "shortDescription": "Física experimental, contribuyó a la física nuclear.",
-    "description": "Física experimental de origen chino, desafiando los prejuicios de género y nacionalidad, realizó experimentos fundamentales en física de partículas y contribuyó significativamente a la comprensión de la desintegración beta. Su famoso experimento \"Wu\" refutó la paridad en la física de partículas, lo que cambió la forma en que los científicos comprenden las fuerzas fundamentales de la naturaleza. Wu demostró que el talento y la perseverancia pueden superar cualquier barrera, y su legado sigue siendo un faro de inspiración para científicas en todo el mundo.",
+    "id": "Origami",
+    "name": "Origami dripper",
+    "shortDescription": "Se ha vuelto popular por la forma de su filtro y su control de flujo.",
+    "description": "La marca es una creación de un barista japonés que diseñó y desarrolló un dripper (o colador) de café de goteo con múltiples pliegues, inspirado en las técnicas de plegado de papel del origami. Este dripper de café tiene una serie de pliegues internos que permiten un flujo de agua más uniforme a través del café molido, lo que ayuda a maximizar la extracción y a resaltar los sabores y aromas del café. Los baristas que aprecian la capacidad de controlar los aspectos clave del proceso de preparación, como el tiempo de extracción y la velocidad de vertido",
     "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/chien-shiung-wu.jpg",
     "facts": {
-      "yearOfBirth": "1912",
-      "yearOfDeath": "1997",
-      "birthPlace": "Liuhe, Taicang, China",
-      "mainField": "Física"
+      "origen": "Japón",
+      "tiempoDeExtraccion": "10-15 minutos aproximadamente.",
+      "molienda": "media-fina",
+      "contenido": "café en grano de molienda específica y agua mineralizada."
     },
+    
     "extraInfo": {
       "imageSource": "https://www.thoughtco.com/chien-shiung-wu-biography-3530366"
     }
   },
   {
-    "id": "hedy-lamarr",
-    "name": "Hedy Lamarr",
-    "shortDescription": "Actriz e inventora, contribuyó al desarrollo de la tecnología de espectro ensanchado.",
-    "description": "Actriz austroamericana y científica, fue una mente brillante en la intersección de la tecnología y el entretenimiento. Junto con el compositor George Antheil, inventó un sistema de comunicación secreta durante la Segunda Guerra Mundial que sentó las bases para la tecnología de espectro ensanchado y la comunicación inalámbrica moderna. Lamarr demostró que las mujeres pueden destacar tanto en el cine como en la ciencia, y su legado como inventora ha sido fundamental para el desarrollo de la tecnología de comunicación inalámbrica que usamos en la actualidad.",
+    "id": "Prensa-francesa",
+    "name": "Prensa francesa",
+    "shortDescription": "La clásica preparación de cafetera de émbolo que es multiusada en muchos hogares",
+    "description": "La prensa francesa se popularizó rápidamente en Francia y en otros lugares de Europa como una forma simple y efectiva de preparar café. Consiste en un recipiente de vidrio o metal con un émbolo que tiene un filtro de metal en un extremo. Para preparar café con una prensa francesa, se coloca café molido grueso en el recipiente, se agrega agua caliente y se deja reposar durante unos minutos. Luego, se empuja lentamente el émbolo hacia abajo, lo que fuerza el café a través del filtro y separa los posos del líquido.",
     "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/hedy-lamarr.jpg",
     "facts": {
-      "yearOfBirth": "1914",
-      "yearOfDeath": "2000",
-      "birthPlace": "Viena, Austria",
-      "mainField": "Actuación, Física"
+      "origen": "Francia",
+      "tiempoDeExtraccion": "5-8 minutos aproximadamente.",
+      "molienda": "gruesa o media-gruesa",
+      "contenido": "café en grano de molienda específica y agua mineralizada."
     },
     "extraInfo": {
       "imageSource": "https://www.sparkfun.com/news/6147"
     }
   },
   {
-    "id": "maria-goeppert-mayer",
-    "name": "Maria Goeppert Mayer",
-    "shortDescription": "Física teórica, ganadora del Premio Nobel de Física.",
-    "description": "Física teórica alemana-estadounidense, dejó una profunda huella en la física nuclear y la mecánica cuántica. Fue la segunda mujer en recibir el Premio Nobel de Física y su trabajo pionero en la estructura de capas nucleares revolucionó nuestra comprensión de los núcleos atómicos. A pesar de las barreras de género en la academia, su dedicación y talento la llevaron a contribuir significativamente a la teoría nuclear, abriendo el camino para futuras investigadoras en un campo dominado por hombres. Maria Goeppert Mayer es un ejemplo inspirador de excelencia científica y perseverancia en la búsqueda del conocimiento.",
+    "id": "Moka-italiana",
+    "name": "Cafetera moka italiana",
+    "shortDescription": "Es un proceso clásico de italia que va en contacto directo con la estufa de cocina.",
+    "description": "Este es un método de preparación sencillo y económico para preparar en casa o llevar a un camping. Consiste en un dispositivo de extracción de café que utiliza presión de vapor para hacer pasar agua caliente a través de café molido y producir una taza de café con un sabor intenso y aromático. Consiste en tres cámaras: una inferior que se llena con agua, una superior que contiene el café molido y un embudo que se encuentra entre las dos cámaras y que dirige el vapor de agua hacia arriba a través del café molido.",
     "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/maria-goeppert-mayer.jpg",
     "facts": {
-      "yearOfBirth": "1906",
-      "yearOfDeath": "1972",
-      "birthPlace": "Kattowitz, Alemania",
-      "mainField": "Física"
+      "origen": "Italia",
+      "tiempoDeExtraccion": "3-6 minutos aproximadamente.",
+      "molienda": "media-gruesa",
+      "contenido": "café en grano de molienda específica y agua mineralizada."
     },
     "extraInfo": {
       "imageSource": "https://www.wsemexhibit.org/maria-goeppert-mayer.html"
     }
   },
   {
-    "id": "lise-meitner",
-    "name": "Lise Meitner",
-    "shortDescription": "Física nuclear, contribuyó a la teoría de la fisión nuclear.",
-    "description": "Física austriaca-sueca, dejó un legado imborrable en la física nuclear y la radioquímica. A pesar de enfrentar obstáculos de género en una era dominada por hombres, colaboró con Otto Hahn en el descubrimiento de la fisión nuclear, un avance revolucionario. Aunque no compartió el Premio Nobel por este logro, su contribución fue crucial para comprender la energía nuclear y la física de partículas. Su determinación y pasión por la ciencia han inspirado a generaciones de científicas. Lise Meitner es un símbolo perdurable de la perseverancia femenina y el impacto duradero que las mujeres pueden tener en la ciencia.",
+    "id": "Syphon-japones",
+    "name": "Syphon-japones",
+    "shortDescription": "Combina espectáculo visual con precisión científica.",
+    "description": "El sifón japonés consiste en dos cámaras de vidrio (superior e inferior) conectadas por un tubo vertical. El agua se calienta en la cámara inferior y, al aumentar la presión, asciende a través del tubo hacia la cámara superior donde se mezcla con café molido. Luego, al retirar el calor, el café se filtra de nuevo hacia la cámara inferior a través de un filtro de tela. Proporciona una taza de café limpia, aromática y ligeramente sedosa. Para su preparación requiere práctica y experiencia para dominar, pero una vez dominado, puede producir resultados excepcionales y consistentes.",
     "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/lise-meitner.jpg",
     "facts": {
-      "yearOfBirth": "1878",
-      "yearOfDeath": "1968",
-      "birthPlace": "Viena, Austria",
-      "mainField": "Física"
+      "origen": "Alemania y Japón",
+      "tiempoDeExtraccion": "15-25 minutos aproximadamente.",
+      "molienda": "gruesa",
+      "contenido": "café en grano de molienda específica y agua mineralizada."
     },
     "extraInfo": {
       "imageSource": "https://www.bing.com/images/create/lise-meitner-in-nuclear-physics-lab-in-19502c-retro/651196e6bbcb4009950e9955c2199760"
     }
   },
   {
-    "id": "sau-lan-wu",
-    "name": "Sau Lan Wu",
-    "shortDescription": "Física de partículas, contribuyó a experimentos clave en física de alta energía.",
-    "description": "Física experimental sinoamericana, ha sido una fuerza motriz en la física de partículas. Destacó en experimentos en el CERN y lideró investigaciones cruciales, como el descubrimiento del quark c, que expandieron nuestro entendimiento de la estructura fundamental de la materia. Wu superó desafíos en una disciplina dominada por hombres y ha sido un faro de inspiración para científicas de todo el mundo. Sau Lan Wu es un ejemplo de excelencia científica y de cómo las mujeres pueden dejar huella en la investigación de vanguardia.",
+    "id": "Affogato",
+    "name": "Affogato",
+    "shortDescription": "Su ingrediente sabroso está 'ahogado' en un espresso y es por eso que lleva ese nombre.",
+    "description": "Esta sencilla pero exquisita preparación es apreciada por su contraste de temperaturas y sabores, creando una experiencia indulgente y satisfactoria para los amantes del café y el helado de vainilla. La preparación es simple: se vierte un espresso caliente sobre una o dos bolas de helado, generalmente helado de vainilla, creando un contraste delicioso entre el calor del café y la frescura del helado. La mezcla es apreciada por los amantes del café y los postres en todo el mundo.",
     "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/sau-lan-wu.jpg",
     "facts": {
-      "yearOfBirth": "1940",
-      "birthPlace": "Hong Kong, China",
-      "mainField": "Física de Partículas"
+      "origen": "Italia",
+      "tiempoDeExtraccion": "25-35 segundos aproximadamente.",
+      "molienda": "super-fina",
+      "contenido": "dosis de espresso doble y helado de vainilla"
     },
     "extraInfo": {
       "imageSource": "https://repository.aip.org/islandora/object/nbla%3A315195"
     }
   },
   {
-    "id": "jocelyn-bell-burnell",
-    "name": "Jocelyn Bell Burnell",
-    "shortDescription": "Astrónoma y astrofísica, co-descubridora de los púlsares.",
-    "description": "Astrofísica británica, es una figura extraordinaria en la ciencia. Durante su doctorado, hizo un descubrimiento revolucionario al detectar los primeros púlsares, estrellas de neutrones altamente magnetizadas que emiten pulsos regulares de radiación. A pesar de que su asesor recibió el Premio Nobel por este descubrimiento, Bell Burnell se ha convertido en un símbolo de perseverancia y contribución de las mujeres a la astronomía. Su carrera distinguida y su activismo en favor de la diversidad de género en la ciencia han inspirado a generaciones futuras de científicas. Jocelyn Bell Burnell es un ejemplo de valentía y excelencia científica.",
+    "id": "Ice-latte",
+    "name": "Ice-latte",
+    "shortDescription": "Perfecta para disfrutar en días calurosos.",
+    "description": "Se hizo conocido en los cafés y establecimientos de café de los Estados Unidos durante la década de 1990. Esta bebida se elabora con espresso y leche fría, generalmente servida sobre hielo. El Ice Latte se convirtió rápidamente en una opción popular durante los meses más cálidos, ya que ofrece una forma refrescante de disfrutar del sabor y la cremosidad de un café latte sin la necesidad de beberlo caliente. Desde entonces, ha ganado popularidad en todo el mundo y se ha convertido en una opción común en los menús de cafeterías y establecimientos de café internacionales.",
     "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/jocelyn-bell-burnell.jpg",
     "facts": {
-      "yearOfBirth": "1943",
-      "birthPlace": "Belfast, Reino Unido",
-      "mainField": "Astronomía, Astrofísica"
+      "origen": "EEUU",
+      "tiempoDeExtraccion": "25-35 segundos aproximadamente.",
+      "molienda": "super-fina",
+      "contenido": "espresso doble y leche batida en coctelera."
     },
     "extraInfo": {
       "imageSource": "https://womeninscienceweadmire.icfo.eu/wiswa-2/jocelyn-bell/"
     }
   },
   {
-    "id": "dorothy-crowfoot-hodgkin",
-    "name": "Dorothy Crowfoot Hodgkin",
-    "shortDescription": "Química, ganadora del Premio Nobel de Química.",
-    "description": "Química británica, es una figura icónica en la ciencia que superó las barreras de género de su época. Su trabajo revolucionario en la cristalografía de rayos X permitió determinar la estructura de importantes biomoléculas, como la penicilina, la vitamina B12 y la insulina. Fue galardonada con el Premio Nobel de Química en 1964, siendo la tercera mujer en recibir este prestigioso reconocimiento. Hodgkin no solo fue una científica excepcional, sino también una defensora de la igualdad de género en la ciencia, allanando el camino para futuras generaciones de científicas y dejando un legado duradero en la investigación y la equidad.",
+    "id": "Espresso-tonic",
+    "name": "Espresso-tonic",
+    "shortDescription": "Es una bebida refrescante y vibrante que combina la intensidad del espresso con la efervescencia del agua tónica.",
+    "description": "Específicamente en las cafeterías de especialidad que han buscado formas innovadoras de servir café durante los últimos años. Aunque no se puede atribuir su invención a un lugar o persona específica, esta bebida ha ganado popularidad en la escena del café de especialidad y las barras de café producen en abundancia esta idea en los meses mas calurosos del año, por ser refrescante y personalizable ya que puede variar el sabor de la tónica y con esto la gama se sabores en boca se enriquece.",
     "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/dorothy-crowfoot-hodgkin.jpg",
     "facts": {
-      "yearOfBirth": "1910",
-      "yearOfDeath": "1994",
-      "birthPlace": "El Cairo, Egipto / Shipston-on-Stour, Reino Unido",
-      "mainField": "Química"
+      "origen": "EEUU",
+      "tiempoDeExtraccion": "25-35 segundos aproximadamente.",
+      "molienda": "super-fina",
+      "contenido": "dosis de espresso doble y bebida tónica de preferencia"
     },
     "extraInfo": {
       "imageSource": "https://www.some.ox.ac.uk/news/jan-royall-why-we-must-champion-dorothy-hodgkin-for-the-50-note/"
     }
   },
   {
-    "id": "marie-curie",
-    "name": "Marie Curie",
-    "shortDescription": "Física y química, ganadora de dos Premios Nobel.",
-    "description": "física y química de origen polaco y nacionalizada francesa, es una de las figuras más icónicas en la historia de la ciencia. Ganadora de dos premios Nobel (Física en 1903 y Química en 1911), Curie realizó investigaciones fundamentales sobre la radiactividad y el descubrimiento de los elementos radio y polonio. Su dedicación y valentía en la investigación científica, a pesar de los desafíos de la discriminación de género y los riesgos de la radiación, la convierten en un modelo a seguir para científicas de todo el mundo.",
+    "id": "Frappe",
+    "name": "Frappe",
+    "shortDescription": "Un postre de café.",
+    "description": "Esta preparación está creada por un trabajador de la compañía griega de Nestlé y rápidamente se hizo popular para aquellas personas que prefieren el café con un dulzor predominante que normalmente se consume en verano por sus ingredientes refrescantes. Además, comenzó a evolucionar en sus ingredientes y diversos sabores como el syrup que entre los más comunes están el caramelo, oreo, vainilla, coco y tipos de leche como son la condensada, la crema chantilly que le agregan más textura y hace que se torne más espeso y contundente.",
     "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/marie-curie.jpg",
     "facts": {
-      "yearOfBirth": "1867",
-      "yearOfDeath": "1934",
-      "birthPlace": "Varsovia, Polonia",
-      "mainField": "Física y Química"
+      "origen": "Grecia",
+      "tiempoDeExtraccion": "25-35 segundos aproximadamente.",
+      "molienda": "super-fina",
+      "contenido": "café, leche, chantilly, syrup, galletas y similares."
     },
     "extraInfo": {
       "imageSource": "https://www.historyextra.com/period/first-world-war/life-of-the-week-marie-curie/"
     }
   },
   {
-    "id": "marjory-stephenson",
-    "name": "Marjory Stephenson",
-    "shortDescription": "Microbióloga y bioquímica, investigó en enzimología.",
-    "description": "Bioquímica británica, brilló como científica en una época en la que las mujeres enfrentaban obstáculos muy significativos en la investigación científica. Su trabajo pionero en microbiología, enzimología y bioquímica contribuyó al entendimiento de procesos fundamentales en la vida. Fue una de las primeras mujeres en ser elegida miembro de la Royal Society, un reconocimiento a su destacada contribución a la ciencia. Además, fue una mentora y defensora de las mujeres en la ciencia, inspirando y allanando el camino para futuras generaciones.",
+    "id": "Cafe-turco",
+    "name": "Café-turco",
+    "shortDescription": "Simula una preparación en pleno desierto, por esto se prepara sobre arena caliente.",
+    "description": "Preparar café turco en una tetera de cobre sobre la arena caliente es todo un arte que requiere atención meticulosa y paciencia para lograr una taza de café aromática y llena de sabor robusto que solo es capaz de encantar a ciertas culturas porque la bebida final contiene restos de sedimento de café que no son solubles al usar esta técnica de preparación. Requiere experiencia y gusto adquirido para lograr beber una taza de café turca a gusto sin decepcionar al consumidor.",
     "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/marjory-stephenson.jpg",
     "facts": {
-      "yearOfBirth": "1885",
-      "yearOfDeath": "1948",
-      "birthPlace": "Londres, Reino Unido",
-      "mainField": "Química, Microbiología, Bioquímica"
+      "origen": "Turquía",
+      "tiempoDeExtraccion": "10-15 minutos aproximadamente.",
+      "molienda": "super-fina",
+      "contenido": "una cucharada de café recién molido y agua mineralizada."
     },
     "extraInfo": {
       "imageSource": "https://microbiologysociety.org/grants-prizes/all-prizes-and-competitions-/prize-lectures/marjory-stephenson-prize-lecture/marjory-stephenson-a-short-history.html"
     }
   },
   {
-    "id": "rosalind-franklin",
-    "name": "Rosalind Franklin",
-    "shortDescription": "Química y cristalógrafa, contribuyó a la comprensión de la estructura del ADN.",
-    "description": "Química y cristalógrafa británica, destacó en un campo dominado por hombres y su contribución a la ciencia es innegable. Sus investigaciones pioneras en la cristalografía de rayos X fueron fundamentales para revelar la estructura del ADN en forma de doble hélice, un hito crucial en la biología molecular. A pesar de que su trabajo inicial fue subestimado, su determinación y habilidad científica allanaron el camino para futuros avances en genética y biología. Franklin es un ejemplo inspirador de cómo las mujeres pueden sobresalir en la ciencia, dejando un legado duradero en la investigación y la igualdad de género.",
+    "id": "Cafe-irlandes",
+    "name": "Cafe-irlandes",
+    "shortDescription": "Es una bebida clásica y reconfortante que se ha ganado un lugar especial en la cultura del café.",
+    "description": "Se dice que fue inventada por un chef irlandés llamado Joe Sheridan en el aeropuerto de Foynes, Condado de Limerick, en la década de 1940. La historia cuenta que Sheridan preparó esta bebida caliente y alcohólica para los pasajeros que regresaban en avión a Nueva York después de un vuelo largo y frío. Para hacerlo, mezcló café recién hecho con una dosis de whisky irlandés, endulzado con azúcar y coronado con crema batida. Hoy en día, es una bebida icónica asociada con la hospitalidad irlandesa y es disfrutada tanto como un aperitivo reconfortante como después de la cena.",
     "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/rosalind-franklin.jpg",
     "facts": {
-      "yearOfBirth": "1920",
-      "yearOfDeath": "1958",
-      "birthPlace": "Londres, Reino Unido",
-      "mainField": "Química, Cristalografía"
+      "origen": "Irlanda",
+      "tiempoDeExtraccion": "25-35 segundos aproximadamente.",
+      "molienda": "super-fina",
+      "contenido": "espresso, whisky, chatilly y azúcar."
     },
     "extraInfo": {
       "imageSource": ""
