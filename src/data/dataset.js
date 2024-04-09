@@ -20,7 +20,7 @@ export default [
       "name": "Cappuccino o cortado",
       "shortDescription": "Esta es una de las preparaciones de café más popular y controversial.",
       "description": "Las personas la buscan también como cortado porque al agregar la leche con una textura suave y con espuma encima hace que sea más dulce y equilibrada.",
-      "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/emmy-noether.jpg",
+      "imageUrl": "/images/.jpg",
       "facts": {
         "origen": "Italia",
         "tiempo de extracción": "25-35 segundos pero puede variar en relación a los demás parámetros y 15 segundos más para emulsionar la leche",
@@ -36,7 +36,7 @@ export default [
       "name": "Mocaccino",
       "shortDescription": "El café caliente más dulce por sus propios ingredientes.",
       "description": "Ideal para las personas con gustos inclinados al dulzor donde el café es casi imperceptible.",
-      "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/hypatia-de-alejandria.jpg",
+      "imageUrl": "/images/espresso.jpg",
       "facts": {
         "origen": "Italia",
         "tiempo de extracción": "25-35 segundos pero puede variar en relación a los demás parámetros",
@@ -52,7 +52,7 @@ export default [
       "name": "Latte",
       "shortDescription": "Una de las bebidas más populares en cafeterías de todo el mundo.",
       "description": "Es de las preparaciones más pedidas porque es una mezcla equilibrada y homogénea entre leche emulsionada y café espresso recién preparado.",
-      "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/marjorie-lee-browne.jpg",
+      "imageUrl": "/images/.jpg",
       "facts": {
         "origen": "Italia",
         "tiempo de extracción": "25-35 segundos pero puede variar en relación a los demás parámetros",
@@ -68,7 +68,7 @@ export default [
       "name": "Macciato o manchado",
       "shortDescription": "Ideal para aquellos que quieren un final intenso pero de comienzo apaciguante.",
       "description": "es un café muy particular, porque a diferencia de los otros que llevan leche emulsionada, este solo lleva una capa de espuma sobre la dosis de espresso que lo hace de entrada más equilibrada.",
-      "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/shakuntala-devi.jpg",
+      "imageUrl": "/images/espresso.jpg",
       "facts": {
         "origen": "Italia",
         "tiempo de extracción": "25-35 segundos pero puede variar en relación a los demás parámetros",
@@ -84,7 +84,7 @@ export default [
       "name": "Flat-white",
       "shortDescription": "Un café con nombre y apellido que se popularizó en Australia y después en el resto del mundo.",
       "description": "Muy bien recibido entre profesionales del café por su leche elástica y su milimetrada y minusiosa capa de crema en la superficie hace que encante a los entendidos en la materia por su precisión.",
-      "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/sofia-kovalevskaya.jpg",
+      "imageUrl": "/images/flat-white.jpeg",
       "facts": {
         "origen": "Australia",
         "tiempo de extracción": "10-20 segundos pero puede variar en relación a los demás parámetros",
@@ -100,7 +100,7 @@ export default [
       "name": "Lungo o Red-Eyes",
       "shortDescription": "Uno de sus nombres lo cataloga por su intensidad.",
       "description": "Su característica principal es la extracción prolongada que produce una bebida más diluida que un espresso, pero con un sabor intenso más equilibrado. Los que la prefieren saben que está en medio de un espresso y un americano.",
-      "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/yoko-shimomura.jpg",
+      "imageUrl": "/images/lungo.jpg",
       "facts": {
         "origen": "Italia",
         "tiempo de extracción": "25-35 segundos pero puede variar en relación a los demás parámetros",
@@ -116,7 +116,7 @@ export default [
       "name": "Americano",
       "shortDescription": "Su nombre indica del lugar donde se popularizó y se extendió.",
       "description": "Preparar un café americano es una práctica fundamental en la cultura del café, especialmente para aquellos que prefieren una bebida suave y menos concentrada que el espresso tradicional.",
-      "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/maryam-mirzakhani.jpg",
+      "imageUrl": "/images/americano.jpg",
       "facts": {
         "origen": "EEUU",
         "tiempo de extracción": "25-35 segundos pero puede variar en relación a los demás parámetros",
@@ -132,7 +132,7 @@ export default [
       "name": "Long-black",
       "shortDescription": "Podría ser un americano, pero no, difieren en el orden de su contenido.",
       "description": "Para los más detallistas, este café gusta porque al cambiar el orden de su contenido: agua primero y dosis doble añade una capa de crema innata del espresso en la superficie.",
-      "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/adele-goldberg.jpg",
+      "imageUrl": "/images/longblack.jpg",
       "facts": {
         "origen": "EEUU",
         "tiempo de extracción": "25-35 segundos pero puede variar en relación a los demás parámetros",
@@ -148,7 +148,7 @@ export default [
       "name": "Ristretto",
       "shortDescription": "Un shot de intensidad.",
       "description": "Este café es la dosis en menor tiempo y más concentrada que puede salir de una máquina, puesto que su relación de agua y café es 1:1. La preferida y más popular de los italianos",
-      "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/barbara-liskov.jpg",
+      "imageUrl": "/images/ristretto.jpg",
       "facts": {
         "origen": "Italia",
         "tiempo de extracción": "10-20 segundos pero puede variar en relación a los demás parámetros",
@@ -164,7 +164,7 @@ export default [
       "name": "Kalita-wave",
       "shortDescription": "Wave, se debe a su traducción de ola de mar que simula la forma del filtro.",
       "description": "Es apreciada por su capacidad para resaltar las características únicas del café, brindando una experiencia de degustación excepcional. Con práctica y atención al detalle, puedes preparar un café delicioso y satisfactorio.",
-      "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/grace-hopper.jpg",
+      "imageUrl": "/images/kalita-wave.jpg",
       "facts": {
         "origen": "EEUU",
         "tiempo de extracción": "10-15 minutos, pero puede variar en relación a los demás parámetros",
@@ -180,7 +180,7 @@ export default [
       "name": "Dripper v60",
       "shortDescription": "Es un método de goteo y su nombre particular es por la forma de cono que tiene su filtro.",
       "description": "Su particular forma es para obtener un flujo de agua más controlado y de esta manera resaltar notas de cata que despiertan la curiosidad del bebedor y obtener un perfil de café balanceado.",
-      "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/margaret-hamilton.jpg",
+      "imageUrl": "/images/v60.jpg",
       "facts": {
         "origen": "EEUU",
         "tiempo de extracción": "10-15 minutos, pero puede variar en relación a los demás parámetros",
@@ -196,7 +196,7 @@ export default [
       "name": "Chemex",
       "shortDescription": "Este método de extracción por goteo es tan refinado como su diseño.",
       "description": "La Chemex produce una taza de café excepcionalmente limpia y con un sabor claro y brillante como resultado de notas de café muy sutiles que conforman un final agradable que no invade ni impacta demasiado. Lo definimos como 'jugo de frutita'.",
-      "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/radia-perlman.jpg",
+      "imageUrl": "/images/Chemex.jpg",
       "facts": {
         "origen": "EEUU",
         "tiempo de extracción": "10-15 minutos, pero puede variar en relación a los demás parámetros",
@@ -212,7 +212,7 @@ export default [
       "name": "Aeropress",
       "shortDescription": "Distinguida es por su caída en la extracción en forma de lluvia.",
       "description": "Ella destaca por su sencillez en la complejidad y lo práctico que resulta llevarla a donde sea por su diseño. Simula una taza de sabor compleja e intensa como si fuera un espresso pero en metodo de goteo",
-      "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/shafi-goldwasser.jpg",
+      "imageUrl": "/images/aeropress.jpg",
       "facts": {
         "origen": "EEUU",
         "tiempo de extracción": "10-15 minutos, pero puede variar en relación a los demás parámetros",
@@ -228,7 +228,7 @@ export default [
       "name": "Origami dripper",
       "shortDescription": "Es una técnica relativamente nueva que se ha vuelto popular por la forma de su filtro y su control de flujo.",
       "description": "La forma y los pliegues de este metodo permiten una mayor personalización en la preparación, lo que se traduce en resaltar notas y sabores más precisos según el origen del grano.",
-      "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/chien-shiung-wu.jpg",
+      "imageUrl": "/images/origami.jpg",
       "facts": {
         "origen": "Japón",
         "tiempo de extracción": "10-15 minutos, pero puede variar en relación a los demás parámetros",
@@ -244,7 +244,7 @@ export default [
       "name": "Prensa francesa",
       "shortDescription": "La clásica preparación de cafetera de émbolo que es multiusada en muchos hogares",
       "description": "Aquí es donde el café se sumerge directamente en el agua y pasado unos minutos se prensa para separar las particulas no solubles y obtener un café robusto y muy aromático.",
-      "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/hedy-lamarr.jpg",
+      "imageUrl": "/images/aeropress.jpg",
       "facts": {
         "origen": "Francia",
         "tiempo de extracción": "5-8 minutos, pero puede variar en relación a los demás parámetros",
@@ -276,7 +276,7 @@ export default [
       "name": "Syphon japonés",
       "shortDescription": "Combina espectáculo visual con precisión científica.",
       "description": "Porporciona una taza de café limpia, aromática y ligeramente sedosa. Para su preparación requiere práctica y experiencia para dominar, pero una vez dominado, puede producir resultados excepcionales y consistentes.",
-      "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/lise-meitner.jpg",
+      "imageUrl": "/images/syphon.jpg",
       "facts": {
         "origen": "Japón",
         "tiempo de extracción": "15-25 minutos, pero puede variar en relación a los demás parámetros",
@@ -324,7 +324,7 @@ export default [
       "name": "Espresso-tonic",
       "shortDescription": "Es una bebida refrescante y vibrante que combina la intensidad del espresso con la efervescencia del agua tónica.",
       "description": "Las barras de café producen en abundancia esta idea en los meses mas calurosos del año, por ser refrescante, personalizable porque puede variar el sabor de la tónica y con esto la gama se sabores en boca se enriquece.",
-      "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/dorothy-crowfoot-hodgkin.jpg",
+      "imageUrl": "/images/espresso-tonic.jpg",
       "facts": {
         "origen": "EEUU",
         "tiempo de extracción": "2 minutos, pero puede variar en relación a los demás parámetros",
@@ -340,7 +340,7 @@ export default [
       "name": "Frappé",
       "shortDescription": "Un postre de café.",
       "description": "Esta preparación está creada para aquellas personas que prefieren el café con un dulzor predominante, que normalmente se consume en verano por sus ingredientes refrescantes. Además se puede añadir diversos sabores y tipos de leche para darle más textura y cremosidad.",
-      "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/marie-curie.jpg",
+      "imageUrl": "/images/frappé.jpg",
       "facts": {
         "origen": "EEUU",
         "tiempo de extracción": "5-10 minutos, pero puede variar en relación a los demás parámetros",
