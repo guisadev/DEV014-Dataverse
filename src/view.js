@@ -6,16 +6,11 @@ export const renderItems = (data) => {
         const newLi = document.createElement("li")
         const newImage = document.createElement("img")
         const cafe = element
-        const cappuccino = document.createElement("h5")
-        const cappuccinoData = data[1]
-        cappuccino.textContent = cappuccinoData.name 
-
         newImage.setAttribute("src", cafe.imageUrl)
         newLi.appendChild(newImage)
         const cafe2 = document.createElement("h5")
         const cafeZ = element
         cafe2.textContent = cafeZ.name
-        cappuccino.appendChild(cafe2)
         newLi.appendChild(cafe2)
         newUl.appendChild(newLi)
     });
