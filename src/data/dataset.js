@@ -5,7 +5,7 @@ export default [
     "name": "Café espresso",
     "shortDescription": "Esta preparación tiene una relación de agua y café 1:2.",
     "description": "Se popularizó gracias al desarrollo y perfeccionamiento de la máquina de espresso por parte de Luigi Bezzera en 1901. Esta máquina permitía una extracción rápida y bajo presión del café molido, produciendo una bebida concentrada y sabrosa que se convirtió en un símbolo de la cultura del café italiana. El término proviene del italiano y significa 'exprimido' haciendo referencia al proceso de extracción del café bajo presión. La creación del espresso revolucionó la forma en que se preparaba y consumía el café, dando lugar a una bebida más concentrada y más intensa que las preparaciones de café tradicionales.",
-    "imageUrl": "img.jpg/espresso.jpg",
+    "imageUrl": "/images/espresso.jpg",
     "facts": {
       "origen": "Italia, Milán",
       "tiempoDeExtraccion": "25-35 segundos aproximadamente.",
@@ -381,6 +381,7 @@ export default [
       "molienda": "super-fina",
       "contenido": "espresso, whisky, chatilly y azúcar."
  
-    }
+    }}
+
   ];
   
