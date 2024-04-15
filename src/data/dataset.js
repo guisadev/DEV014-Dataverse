@@ -382,5 +382,6 @@ export default [
       "contenido": "espresso, whisky, chatilly y azúcar."
  
     }
+  }
   ];
   
