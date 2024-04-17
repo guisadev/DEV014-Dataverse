@@ -4,46 +4,41 @@ export const renderItems = (data) => {
   data.forEach(element => {
     //console.log(element)
     const newLi = document.createElement("li"); //un elemento li por cada elemento en data
+
     const newImage = document.createElement("img"); //un elemento img para mostrar la imagen
-    
     newImage.setAttribute("src", element.imageUrl); //utilizamos la url de la imagen del doc actual
-    newLi.appendChild(newImage);
-
-    const shortDescription = document.createElement("span");
-    shortDescription.textContent = element.shortDescription;
     
-
-    const cafeName = document.createElement("h5")
+    const name = document.createElement("dt")
+    name.textContent = "Nombre:"
+    const cafeName = document.createElement("dd")
     cafeName.textContent = element.name; //añadimos el nombre al elemento actual
 
-    const cafeDescription = document.createElement("p");
-    cafeDescription.textContent = element.description;
-    //Creamos una lista para los hechos de cada café
-    const factsList = document.createElement('ul');
-    // Ordenamos manualmente los hechos en el orden deseado
-    const orderedFacts = {
-      "Origen": element.facts.origen,
-      "Tiempo de Extracción": element.facts.tiempoDeExtraccion,
-      "Molienda": element.facts.molienda,
-      "Contenido": element.facts.contenido
-    };
+    const shortDescription = document.createElement("dt");
+    shortDescription.textContent = "Descripción:"    
+    const cafeDescription = document.createElement("dd");
+    cafeDescription.textContent = element.shortDescription;
 
-    // Recorremos los hechos ordenados y creamos un elemento <li> para cada hecho
-    for (const [factName, factValue] of Object.entries(orderedFacts)) {
-      if (factValue) {
-        const factItem = document.createElement('li');
-        factItem.textContent = `${factName}: ${factValue}`;
-        factsList.appendChild(factItem);
-      }
-    }
-    newLi.appendChild(cafeName);
-    newLi.appendChild(shortDescription);
-    newLi.appendChild(cafeDescription);
-    newUl.appendChild(newLi);
-    newLi.appendChild(factsList);
+    //Creamos una lista para los hechos de cada café
+    const origen = document.createElement("dt");
+    origen.textContent = "Café origen:";
+    const cafeOrigen = document.createElement("dd")
+    cafeOrigen.textContent = element.facts.origen
+
+    const tiempoDeExtraccion = document.createElement("dt")
+    tiempoDeExtraccion.textContent = "Tiempo de extracción:";
+    const cafeTiempoDeExtraccion = document.createElement("dd");
+    cafeTiempoDeExtraccion.textContent = element.facts.tiempoDeExtraccion
+
+    const contenido = document.createElement("dt");
+    contenido.textContent = "Contenido:";
+    const cafeContenido = document.createElement("dd");
+    cafeContenido.textContent = element.facts.contenido;
+
+
+    newLi.append(newImage, name, cafeName, shortDescription, cafeDescription, origen, cafeOrigen, tiempoDeExtraccion, cafeTiempoDeExtraccion, contenido, cafeContenido);
+    newUl.appendChild(newLi)
     
   });
-  document.body.appendChild(newUl)
   //console.log(data)
   //   Aquí comienza tu código y puedes retornar lo que tu necesites
   return newUl;// debe retornar solo newUl 

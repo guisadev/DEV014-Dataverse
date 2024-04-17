@@ -1,11 +1,27 @@
 img{
-    width: 300px;
-}
-ul li {
-    margin-bottom: 40px; /* Ajusta el valor según el espacio que desees entre los elementos */
+    width: 280px;;
 }
 
-  /* Estilo para los elementos <li> de las listas internas */
-ul ul li {
-    margin-bottom: 0; /* Elimina el margen para los elementos de las listas internas */
+ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+li{ 
+    border: 11px solid darkseagreen;
+    padding: 15px;
+    margin: 20px;
+    border-radius: 10px;
+    list-style: none;
+    width: 350px;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: baseline;
+    background-color: thistle;
+
+}
+body{
+    background-color: antiquewhite;
 }
