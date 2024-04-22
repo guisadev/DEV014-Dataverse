@@ -2,7 +2,7 @@ export default [
   
   {
     "id": "cafe-espresso",
-    "name": "Café espresso",
+    "name": "Espresso",
     "shortDescription": "Esta preparación tiene una relación de agua y café 1:2.",
     "description": "Se popularizó gracias al desarrollo y perfeccionamiento de la máquina de espresso por parte de Luigi Bezzera en 1901. Esta máquina permitía una extracción rápida y bajo presión del café molido, produciendo una bebida concentrada y sabrosa que se convirtió en un símbolo de la cultura del café italiana. El término proviene del italiano y significa 'exprimido' haciendo referencia al proceso de extracción del café bajo presión. La creación del espresso revolucionó la forma en que se preparaba y consumía el café, dando lugar a una bebida más concentrada y más intensa que las preparaciones de café tradicionales.",
     "imageUrl": "/images/espresso.jpg",
@@ -21,7 +21,7 @@ export default [
     "name": "Cappuccino o cortado",
     "shortDescription": "Esta es una de las preparaciones de café más popular y controversial.",
     "description": "El cappuccino tradicionalmente se compone de partes iguales de espresso, leche vaporizada y espuma de leche. La leche vaporizada se vierte primero sobre el espresso, y luego se agrega la espuma de leche en la parte superior. La espuma de leche suele estar decorada con un toque de cacao en polvo o canela. Esta bebida se popularizó en Italia durante el siglo XX y se convirtió en una opción favorita en las cafeterías italianas y posteriormente en todo el mundo. Hoy en día, el cappuccino es una de las bebidas de café más consumidas en todo el mundo.",
-    "imageUrl": "/images/cappuccino.jpg",
+    "imageUrl": "/images/cappucino.jpg",
     "facts": {
       "origen": "Italia",
       "tiempoDeExtraccion": "25-35 segundos aproximadamente.",
@@ -69,7 +69,7 @@ export default [
     "name": "Macciato o manchado",
     "shortDescription": "Ideal para aquellos que quieren un final intenso pero de comienzo apaciguante.",
     "description": "Se prepara tradicionalmente con un solo espresso al que se le agrega una pequeña cantidad de leche vaporizada o espumada, lo que 'mancha' el espresso con una capa de leche. Esto resulta en una bebida que es más fuerte que un café con leche pero menos intensa que un latte. El macchiato se originó en Italia, donde se convirtió en una opción popular en las cafeterías y bares locales. Con el tiempo, su popularidad se extendió a otros países y se ha convertido en una bebida común en muchas cafeterías de todo el mundo.",
-    "imageUrl": "/images/macciato.jpg",
+    "imageUrl": "/images/macchiato.jpg",
     "facts": {
       "origen": "Italia",
       "tiempoDeExtraccion": "25-35 segundos aproximadamente.",
@@ -85,7 +85,7 @@ export default [
     "name": "Flat-white",
     "shortDescription": "Tiene una ligera cantidad de crema en la superficie.",
     "description": "En general, el Flat White se compone de un doble ristretto, servido en una taza de cerámica, y cubierto con una capa de leche al vapor. La leche al vapor utilizada en un Flat White es más sedosa y menos espumosa que la que se utiliza en un café con leche o un capuchino, lo que resulta en una bebida más suave y menos pesada. Se cree que el Flat White se originó en la década de 1980 en Australia o Nueva Zelanda, donde se convirtió rápidamente en una opción popular en las cafeterías de ambos países.",
-    "imageUrl": "/images/flat-white.jpg",
+    "imageUrl": "/images/flat-white.jpeg",
     "facts": {
       "origen": "Australia y Nueva Zelanda",
       "tiempoDeExtraccion": "10-20 segundos aproximadamente.",
@@ -133,7 +133,7 @@ export default [
     "name": "Long-black",
     "shortDescription": "Podría ser un americano, pero no, difieren en el orden de su contenido.",
     "description": "La preparación de café tiene sus raíces en Australia y Nueva Zelanda. En un 'Long Black', se vierte un solo o doble espresso sobre agua caliente, mientras que en un 'Americano', se vierte agua caliente sobre un solo o doble espresso. Esta diferencia en el orden de preparación afecta el sabor y la textura de la bebida, dando al Long Black un perfil de sabor más robusto y una crema más intacta en comparación con el Americano. Se desarrolló como una alternativa al café espresso que era más suave y menos concentrado.",
-    "imageUrl": "/images/long-black.jpg",
+    "imageUrl": "/images/longblack.jpg",
     "facts": {
       "origen": "Australia y Nueva Zelanda",
       "tiempoDeExtraccion": "25-35 segundos aproximadamente.",
@@ -165,7 +165,7 @@ export default [
     "name": "kalita-wave",
     "shortDescription": "Wave, se debe a su traducción de ola de mar que simula las estrías del filtro.",
     "description": "Fue desarrollada por la empresa japonesa Kalita Co., que es conocida por sus productos de alta calidad para la preparación de café y té. Se caracteriza por su diseño único de filtro con ondas y su fondo plano. Estos filtros de papel especiales están diseñados para promover una extracción uniforme y consistente del café, permitiendo un flujo de agua controlado y una distribución uniforme del café molido. El diseño del fondo plano también contribuye a una extracción más uniforme al permitir que el agua permanezca en contacto con el café durante un período de tiempo más largo.",
-    "imageUrl": "/images/kalita.jpg",
+    "imageUrl": "/images/kalita-wave.jpg",
     "facts": {
       "origen": "EEUU",
       "tiempoDeExtraccion": "10-15 minutos aproximadamente.",
@@ -246,7 +246,7 @@ export default [
     "name": "Prensa francesa",
     "shortDescription": "La clásica preparación de cafetera de émbolo que es multiusada en muchos hogares",
     "description": "La prensa francesa se popularizó rápidamente en Francia y en otros lugares de Europa como una forma simple y efectiva de preparar café. Consiste en un recipiente de vidrio o metal con un émbolo que tiene un filtro de metal en un extremo. Para preparar café con una prensa francesa, se coloca café molido grueso en el recipiente, se agrega agua caliente y se deja reposar durante unos minutos. Luego, se empuja lentamente el émbolo hacia abajo, lo que fuerza el café a través del filtro y separa los posos del líquido.",
-    "imageUrl": "/images/prensa-francesa.jpg",
+    "imageUrl": "/images/francesa.jpg",
     "facts": {
       "origen": "Francia",
       "tiempoDeExtraccion": "5-8 minutos aproximadamente.",
@@ -275,10 +275,10 @@ export default [
   },
   {
     "id": "Syphon-japones",
-    "name": "Syphon-japones",
+    "name": "Syphon japonés",
     "shortDescription": "Combina espectáculo visual con precisión científica.",
     "description": "El sifón japonés consiste en dos cámaras de vidrio (superior e inferior) conectadas por un tubo vertical. El agua se calienta en la cámara inferior y, al aumentar la presión, asciende a través del tubo hacia la cámara superior donde se mezcla con café molido. Luego, al retirar el calor, el café se filtra de nuevo hacia la cámara inferior a través de un filtro de tela. Proporciona una taza de café limpia, aromática y ligeramente sedosa. Para su preparación requiere práctica y experiencia para dominar, pero una vez dominado, puede producir resultados excepcionales y consistentes.",
-    "imageUrl": "/images/syphon-japones.jpg",
+    "imageUrl": "/images/syphon.jpg",
     "facts": {
       "origen": "Alemania y Japón",
       "tiempoDeExtraccion": "15-25 minutos aproximadamente.",
@@ -294,7 +294,7 @@ export default [
     "name": "Affogato",
     "shortDescription": "Su ingrediente sabroso está 'ahogado' en un espresso y es por eso que lleva ese nombre.",
     "description": "Esta sencilla pero exquisita preparación es apreciada por su contraste de temperaturas y sabores, creando una experiencia indulgente y satisfactoria para los amantes del café y el helado de vainilla. La preparación es simple: se vierte un espresso caliente sobre una o dos bolas de helado, generalmente helado de vainilla, creando un contraste delicioso entre el calor del café y la frescura del helado. La mezcla es apreciada por los amantes del café y los postres en todo el mundo.",
-    "imageUrl": "/images/affogato.jpg",
+    "imageUrl": "/images/afogatto.jpg",
     "facts": {
       "origen": "Italia",
       "tiempoDeExtraccion": "25-35 segundos aproximadamente.",
@@ -310,7 +310,7 @@ export default [
     "name": "Ice-latte",
     "shortDescription": "Perfecta para disfrutar en días calurosos.",
     "description": "Se hizo conocido en los cafés y establecimientos de café de los Estados Unidos durante la década de 1990. Esta bebida se elabora con espresso y leche fría, generalmente servida sobre hielo. El Ice Latte se convirtió rápidamente en una opción popular durante los meses más cálidos, ya que ofrece una forma refrescante de disfrutar del sabor y la cremosidad de un café latte sin la necesidad de beberlo caliente. Desde entonces, ha ganado popularidad en todo el mundo y se ha convertido en una opción común en los menús de cafeterías y establecimientos de café internacionales.",
-    "imageUrl": "/images/ice-late.jpg",
+    "imageUrl": "/images/ice latte.jpg",
     "facts": {
       "origen": "EEUU",
       "tiempoDeExtraccion": "25-35 segundos aproximadamente.",
@@ -342,7 +342,7 @@ export default [
     "name": "Frappe",
     "shortDescription": "Un postre de café.",
     "description": "Esta preparación está creada por un trabajador de la compañía griega de Nestlé y rápidamente se hizo popular para aquellas personas que prefieren el café con un dulzor predominante que normalmente se consume en verano por sus ingredientes refrescantes. Además, comenzó a evolucionar en sus ingredientes y diversos sabores como el syrup que entre los más comunes están el caramelo, oreo, vainilla, coco y tipos de leche como son la condensada, la crema chantilly que le agregan más textura y hace que se torne más espeso y contundente.",
-    "imageUrl": "/images/frappe.jpg",
+    "imageUrl": "/images/frappé.jpg",
     "facts": {
       "origen": "Grecia",
       "tiempoDeExtraccion": "25-35 segundos aproximadamente.",

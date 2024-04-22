@@ -1,3 +1,27 @@
 img{
-    width: 300px;
+    width: 280px;;
+}
+
+ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+li{ 
+    border: 11px solid darkseagreen;
+    padding: 15px;
+    margin: 20px;
+    border-radius: 10px;
+    list-style: none;
+    width: 350px;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: baseline;
+    background-color: thistle;
+
+}
+body{
+    background-color: antiquewhite;
 }
