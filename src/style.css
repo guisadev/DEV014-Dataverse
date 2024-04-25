@@ -6,9 +6,10 @@ ul{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    padding-right: 5px;
 }
 li{ 
-    border: 11px solid darkseagreen;
+    border: 11px solid #ea918b;
     padding: 15px;
     margin: 20px;
     border-radius: 10px;
@@ -17,11 +18,55 @@ li{
     display: flex;
     flex-wrap: nowrap;
     flex-direction: column;
-    justify-content: center;
+    justify-content: center; /*este debo borrarlo para mover a la etiqueta dt y dd */
     align-items: baseline;
-    background-color: thistle;
+    background-color: #6b7a30;
+    font-family: "poppins" , sans-serif;
+    font-style: normal;
+    font-weight: 200;
 
 }
 body{
     background-color: antiquewhite;
+}
+
+h1{
+    font-family: sans-serif cursive;
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    color: brown;
+}
+
+.headerImage{
+    width: 1500px;
+    height: 450px;
+    padding: 30px;
+    border-radius: 50px;
+}
+
+label{
+    padding: 30px;
+    font-family: sans-serif;
+    color: brown;
+}
+
+dt,dd{
+    color: antiquewhite
+}
+
+select{
+    border: 11px solid rosybrown;
+    background-color: darkolivegreen;
+    color: antiquewhite
+}
+
+footer{
+    color: brown;
+    font-family: sans-serif;
+}
+
+dd.cafe-name{
+    
 }

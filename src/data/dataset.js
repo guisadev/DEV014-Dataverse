@@ -9,8 +9,9 @@ export default [
     "facts": {
       "origen": "Italia, Milán",
       "tiempoDeExtraccion": "25-35 segundos aproximadamente.",
-      "molienda": "Superfina",
-      "contenido": "dosis de café y agua mineralizada."
+      "molienda": "fina",
+      "PorcentajeDeContenido": "65% de café y 35% agua mineralizada."
+      
     },
     "extraInfo": {
       "imageSource": "img.jpg/espresso.jpg"
@@ -25,8 +26,8 @@ export default [
     "facts": {
       "origen": "Italia",
       "tiempoDeExtraccion": "25-35 segundos aproximadamente.",
-      "molienda": "Superfina",
-      "contenido": "dosis de espresso y leche emulsionada."
+      "molienda": "fina",
+      "PorcentajeDeContenido": "25% de espresso y 75% leche emulsionada."
     },
     "extraInfo": {
       "imageSource": "https://www.bing.com/images/create/create-an-image-of-of-a-german-woman2c-a-pioneering/6510ddb1e8254b928b8f8f1d5e95fea4"
@@ -41,8 +42,8 @@ export default [
     "facts": {
       "origen": "Italia",
       "tiempoDeExtraccion": "25-35 aproximadamente.",
-      "molienda": "Superfina",
-      "contenido": "dosis de espresso, leche emulsionada, chocolate."
+      "molienda": "fina",
+      "PorcentajeDeContenido": "25% espresso, 65% leche emulsionada, 10% chocolate."
     },
     "extraInfo": {
       "imageSource": "https://www.bing.com/images/create/create-a-vivid-digital-artwork-or-painting-that-de/6510df0ebe1a4807af22175452761e1a"
@@ -57,8 +58,8 @@ export default [
     "facts": {
       "origen": "Italia",
       "tiempoDeExtraccion": "25-35 segundos aproximadamente.",
-      "molienda": "Superfina",
-      "mainField": "dosis de café espresso y leche emulsionada."
+      "molienda": "fina",
+      "PorcentajeDeContenido": "20% espresso y 80% leche emulsionada."
     },
     "extraInfo": {
       "imageSource": "https://www.bing.com/images/create/design-an-inspiring-and-historically-accurate-imag/6510df7e7bb745f69d67f695441607a8"
@@ -73,8 +74,8 @@ export default [
     "facts": {
       "origen": "Italia",
       "tiempoDeExtraccion": "25-35 segundos aproximadamente.",
-      "molienda": "Superfina",
-      "contenido": "dosis de espresso y espuma de leche."
+      "molienda": "fina",
+      "PorcentajeDeContenido": "75% espresso y 25% espuma de leche."
     },
     "extraInfo": {
       "imageSource": "https://www.bing.com/images/create/indian-woman-writing-math-problems-in-a-blackbard-/6510e19f3db54e14b365b7e8dc5045f6"
@@ -89,8 +90,8 @@ export default [
     "facts": {
       "origen": "Australia y Nueva Zelanda",
       "tiempoDeExtraccion": "10-20 segundos aproximadamente.",
-      "molienda": "Superfina",
-      "contenido": "dosis de ristretto y leche emulsionada."
+      "molienda": "fina",
+      "PorcentajeDeContenido": "35% ristretto y 65% leche emulsionada."
     },
     "extraInfo": {
       "imageSource": "https://www.bing.com/images/create/indian-woman-writing-math-problems-in-a-blackbard-/6510e19f3db54e14b365b7e8dc5045f6"
@@ -105,8 +106,8 @@ export default [
     "facts": {
       "origen": "Italia",
       "tiempoDeExtraccion": "25-35 segundos aproximadamente.",
-      "molienda": "Super-fina",
-      "contenido": "dosis de espresso y agua caliente"
+      "molienda": "fina",
+      "PorcentajeDeContenido": "95% espresso y 5% agua caliente"
     },
     "extraInfo": {
       "imageSource": "https://www.bing.com/images/create/yoko-shimomura-making-music-for-a-video-game-in-19/6510e40dd1eb45d0906e8c1f4bb601d3"
@@ -121,8 +122,8 @@ export default [
     "facts": {
       "origen": "Italia",
       "tiempoDeExtraccion": "25-35 segundos aproximadamente.",
-      "molienda": "Superfina",
-      "contenido": "dosis de espresso y abundante agua caliente."
+      "molienda": "fina",
+      "PorcentajeDeContenido": "50% espresso y 50% agua mineralizada."
     },
     "extraInfo": {
       "imageSource": "https://chalkdustmagazine.com/features/mathematics-maryam-mirzakhani/"
@@ -137,8 +138,8 @@ export default [
     "facts": {
       "origen": "Australia y Nueva Zelanda",
       "tiempoDeExtraccion": "25-35 segundos aproximadamente.",
-      "molienda": "Superfina",
-      "contenido": "agua caliente y dosis doble de espresso."
+      "molienda": "fina",
+      "PorcentajeDeContenido": "50% agua mineralizada y 50% espresso."
     },
     "extraInfo": {
       "imageSource": "https://pionerasinformaticas.ujaen.es/en/computer-women-pioneers/adele-goldberg-en"
@@ -153,8 +154,8 @@ export default [
     "facts": {
       "origen": "Italia",
       "tiempoDeExtraccion": "10-20 segundos aproximadamente.",
-      "molienda": "Super-fina.",
-      "contenido": "doble shot de café."
+      "molienda": "fina.",
+      "PorcentajeDeContenido": "85% café y 15% agua mineralizada."
     },
     "extraInfo": {
       "imageSource": "https://medium.com/a-computer-of-ones-own/barbara-liskov-inventor-of-abstract-data-types-9f8908fdcf86"
@@ -169,8 +170,8 @@ export default [
     "facts": {
       "origen": "EEUU",
       "tiempoDeExtraccion": "10-15 minutos aproximadamente.",
-      "molienda": "media.",
-      "contenido": "café en grano de molienda específica y agua mineralizada."
+      "molienda": "media-gruesa",
+      "PorcentajeDeContenido": "23% café de molienda específica y 77% agua mineralizada."
     },
     "extraInfo": {
       "imageSource": "https://photos.com/featured/grace-hopper-with-early-computer-bettmann.html"
@@ -186,7 +187,7 @@ export default [
       "origen": "EEUU",
       "tiempoDeExtraccion": "10-15 minutos aproximadamente.",
       "molienda": "media-fina.",
-      "contenido": "café en grano de molienda específica y agua mineralizada"
+      "PorcentajeDeContenido": "23% café de molienda específica y 77% agua mineralizada"
     },
     "extraInfo": {
       "imageSource": "https://odetta.ai/blogs/margaret-hamilton-the-first-software-engineer"
@@ -201,8 +202,8 @@ export default [
     "facts": {
       "origen": "Alemania",
       "tiempoDeExtraccion": "10-15 minutos aproximadamente.",
-      "molienda": "media-gruesa",
-      "contenido": "café en grano de molienda específica y agua mineralizada"
+      "molienda": "gruesa",
+      "PorcentajeDeContenido": "23% café de molienda específica y 77% agua mineralizada"
     },
     "extraInfo": {
       "imageSource": "https://hackaday.com/2018/05/29/spanning-the-tree-dr-radia-perlman-untangling-networks/"
@@ -217,8 +218,8 @@ export default [
     "facts": {
       "origen": "EEUU",
       "tiempoDeExtraccion": "10-15 minutos aproximadamente.",
-      "molienda": "fina o media-fina",
-      "contenido": "café en grano de molienda específica y agua mineralizada"
+      "molienda": "media-fina",
+      "PorcentajeDeContenido": "23% café de molienda específica y 77% agua mineralizada"
     },
     "extraInfo": {
       "imageSource": "https://www.jahresbericht2019.unibe.ch/successes_2019/einstein_lectures/index_eng.html"
@@ -234,7 +235,7 @@ export default [
       "origen": "Japón",
       "tiempoDeExtraccion": "10-15 minutos aproximadamente.",
       "molienda": "media-fina",
-      "contenido": "café en grano de molienda específica y agua mineralizada."
+      "PorcentajeDeContenido": "23% café de molienda específica y 77% agua mineralizada."
     },
     
     "extraInfo": {
@@ -250,8 +251,8 @@ export default [
     "facts": {
       "origen": "Francia",
       "tiempoDeExtraccion": "5-8 minutos aproximadamente.",
-      "molienda": "gruesa o media-gruesa",
-      "contenido": "café en grano de molienda específica y agua mineralizada."
+      "molienda": "gruesa",
+      "PorcentajeDeContenido": "23% café de molienda específica y 77% agua mineralizada."
     },
     "extraInfo": {
       "imageSource": "https://www.sparkfun.com/news/6147"
@@ -267,7 +268,7 @@ export default [
       "origen": "Italia",
       "tiempoDeExtraccion": "3-6 minutos aproximadamente.",
       "molienda": "media-gruesa",
-      "contenido": "café en grano de molienda específica y agua mineralizada."
+      "PorcentajeDeContenido": "23% café de molienda específica y 77% agua mineralizada."
     },
     "extraInfo": {
       "imageSource": "https://www.wsemexhibit.org/maria-goeppert-mayer.html"
@@ -283,7 +284,7 @@ export default [
       "origen": "Alemania y Japón",
       "tiempoDeExtraccion": "15-25 minutos aproximadamente.",
       "molienda": "gruesa",
-      "contenido": "café en grano de molienda específica y agua mineralizada."
+      "PorcentajeDeContenido": "23% café de molienda específica y 77% agua mineralizada."
     },
     "extraInfo": {
       "imageSource": "https://www.bing.com/images/create/lise-meitner-in-nuclear-physics-lab-in-19502c-retro/651196e6bbcb4009950e9955c2199760"
@@ -298,8 +299,8 @@ export default [
     "facts": {
       "origen": "Italia",
       "tiempoDeExtraccion": "25-35 segundos aproximadamente.",
-      "molienda": "super-fina",
-      "contenido": "dosis de espresso doble y helado de vainilla"
+      "molienda": "fina",
+      "PorcentajeDeContenido": "40% espresso doble y 60% helado de vainilla"
     },
     "extraInfo": {
       "imageSource": "https://repository.aip.org/islandora/object/nbla%3A315195"
@@ -314,8 +315,8 @@ export default [
     "facts": {
       "origen": "EEUU",
       "tiempoDeExtraccion": "25-35 segundos aproximadamente.",
-      "molienda": "super-fina",
-      "contenido": "espresso doble y leche batida en coctelera."
+      "molienda": "fina",
+      "PorcentajeDeContenido": "25% espresso doble, 65% leche 10% hielo."
     },
     "extraInfo": {
       "imageSource": "https://womeninscienceweadmire.icfo.eu/wiswa-2/jocelyn-bell/"
@@ -330,8 +331,8 @@ export default [
     "facts": {
       "origen": "EEUU",
       "tiempoDeExtraccion": "25-35 segundos aproximadamente.",
-      "molienda": "super-fina",
-      "contenido": "dosis de espresso doble y bebida tónica de preferencia"
+      "molienda": "fina",
+      "PorcentajeDeContenido": "25% espresso doble, 50% bebida tónica y hielo 25%"
     },
     "extraInfo": {
       "imageSource": "https://www.some.ox.ac.uk/news/jan-royall-why-we-must-champion-dorothy-hodgkin-for-the-50-note/"
@@ -346,8 +347,8 @@ export default [
     "facts": {
       "origen": "Grecia",
       "tiempoDeExtraccion": "25-35 segundos aproximadamente.",
-      "molienda": "super-fina",
-      "contenido": "café, leche, chantilly, syrup, galletas y similares."
+      "molienda": "fina",
+      "PorcentajeDeContenido": "15% espresso doble, 65% leche, 5% chantilly, 10% syrup y 5% galletas."
     },
     "extraInfo": {
       "imageSource": "https://www.historyextra.com/period/first-world-war/life-of-the-week-marie-curie/"
@@ -362,8 +363,8 @@ export default [
     "facts": {
       "origen": "Turquía",
       "tiempoDeExtraccion": "10-15 minutos aproximadamente.",
-      "molienda": "super-fina",
-      "contenido": "una cucharada de café recién molido y agua mineralizada."
+      "molienda": "media-fina",
+      "PorcentajeDeContenido": "15% café recién molido y 85% agua mineralizada."
     },
     "extraInfo": {
       "imageSource": "https://microbiologysociety.org/grants-prizes/all-prizes-and-competitions-/prize-lectures/marjory-stephenson-prize-lecture/marjory-stephenson-a-short-history.html"
@@ -378,8 +379,8 @@ export default [
     "facts": {
       "origen": "Irlanda",
       "tiempoDeExtraccion": "25-35 segundos aproximadamente.",
-      "molienda": "super-fina",
-      "contenido": "espresso, whisky, chatilly y azúcar."
+      "molienda": "fina",
+      "PorcentajeDeContenido": "55% espresso, 35% whisky, 5% chatilly y 5% azúcar."
  
     }}
 
