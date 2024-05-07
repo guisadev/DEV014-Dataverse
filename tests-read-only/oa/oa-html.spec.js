@@ -2,7 +2,7 @@
  * @jest-environment jsdom
 */
 import fs from 'fs';
-import { renderItems } from '../../src/view.js';
+import { renderItems, createSelect } from '../../src/view.js';
 import { data as fakeData } from '../../test/data.js';
 
 const html = fs.readFileSync('./src/index.html', 'utf-8');
@@ -15,6 +15,7 @@ const renderDOM = (data) => {
     document.querySelector('#root').innerHTML = items;
   } else if (items instanceof HTMLElement) {
     document.querySelector('#root').appendChild(items);
+    document.querySelector('#nav').appendChild(createSelect(fakeData,'molienda'))
   } else {
     throw new Error('Error: renderItems should return an HTML string or an HTMLElement');
   }
