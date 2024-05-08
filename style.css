@@ -1,0 +1,95 @@
+img {
+    width: 280px;
+    margin: 25px;
+}
+
+ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-right: 5px;
+}
+
+li {
+    border: 11px solid rosybrown;
+    padding: 15px;
+    margin: 20px;
+    border-radius: 10px;
+    list-style: none;
+    width: 350px;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    justify-content: space-evenly;
+    background-color: rgb(229, 190, 93);
+    align-items: stretch;
+    font-family: monospace, sans-serif;
+    font-style: normal;
+    font-weight: 200;
+}
+
+h1 {
+    font-family: "Avenir Next", sans-serif;
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    color: brown;
+}
+
+h2 {
+    font-family: "Avenir Next", sans-serif;
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    color: brown;
+}
+
+.headerImage {
+    width: 1500px;
+    height: 450px;
+    padding: 20px;
+    border-radius: 50px;
+}
+
+body {
+    background-color: mistyrose;
+}
+
+label {
+    padding: 30px;
+    font-family: sans-serif;
+    color: brown;
+}
+
+dt,
+dd {
+    color: brown;
+}
+
+#nav {
+    flex-direction: row;
+    margin-top: 10px;
+    padding-left: 400px;
+    border: 5px solid rosybrown;
+    background-color: rgb(100, 120, 68);
+    color: antiquewhite
+}
+
+.select-style {
+    margin-right: 50px;
+    border-radius: 20px;
+}
+
+footer {
+    color: brown;
+    font-family: sans-serif;
+    margin: 50px;
+    padding: 50px;
+}
+
+.select-style{
+    padding: 2px;
+}
+
