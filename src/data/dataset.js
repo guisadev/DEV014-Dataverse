@@ -10,7 +10,7 @@ export default [
       "origen": "Italia, Milán",
       "tiempoDeExtraccion": "25-35 segundos aproximadamente.",
       "molienda": "fina",
-      "porcentajeDeContenido": "65% de café y 35% agua mineralizada."
+      "porcentajeDeContenido": "65% de café y 35% agua mineralizada.",
       
     },
     "extraInfo": {

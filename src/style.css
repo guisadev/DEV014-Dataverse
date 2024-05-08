@@ -22,7 +22,7 @@ li {
     flex-direction: column;
     justify-content: space-evenly;
     background-color: rgb(229, 190, 93);
-    align-items: start;
+    align-items: stretch;
     font-family: monospace, sans-serif;
     font-style: normal;
     font-weight: 200;
@@ -92,3 +92,4 @@ footer {
 .select-style{
     padding: 2px;
 }
+

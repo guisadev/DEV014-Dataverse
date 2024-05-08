@@ -18,39 +18,25 @@
 
 ## 1. Preámbulo
 
-Según [Forbes](https://www.forbes.com/sites/bernardmarr/2018/05/21/how-much-data-do-we-create-every-day-the-mind-blowing-stats-everyone-should-read),
-el 90% de la data que existe hoy ha sido creada durante los últimos dos años.
-Cada día generamos 2.5 millones de terabytes de datos, una cifra sin
-precedentes.
+Moda, sostenibilidad, estética. ¿Qué se bebe realmente cuando se disfruta de una taza de café de especialidad?
+Fue una mujer, especialista en la bebida, quien acuñó este término —la noruega Erna Knutsen—, una importadora que empezó a trabajar el café en lotes. En 1974, Knutsen comenzó a hablar a la prensa de la venta de cafés a pequeños tostadores y a usar el adjetivo “especiales” para referirse a los cafés de alta calidad que distribuía en cantidades reducidas. Y es esa alta calidad a la que hizo referencia Knutsen la que diferencia a grandes rasgos el café de especialidad de los conocidos como comerciales. Pero además, existen unos parámetros concretos establecidos por la Specialty Coffee Association (SCA).
+Los cafés de especialidad deben de obtener más de 80 puntos sobre 100 en la escala creada por este organismo para establecer la calidad del producto. Para ello, hay catadores certificados por el Quality Coffee Institute y conocidos como Q graders, una especie de sumilleres del café, que realizan catas a ciegas donde ponen atención a la calidad del grano, los atributos, el sabor o el aroma. 
+Además de demostrar su calidad para obtener la certificación, para que el café de especialidad mantenga todos sus atributos y despliegue todo su potencial en la taza, requiere conocimiento y mimo de quien lo tuesta y quien lo prepara. “La idea es agregar valor a lo largo de toda la cadena productiva.
 
-No obstante, los datos por sí mismos son de poca utilidad. Para que esas
-grandes cantidades de datos se conviertan en **información** fácil de leer para
-las usuarias, necesitamos entender y procesar estos datos. Una manera simple de
-hacerlo es creando _interfaces_ y _visualizaciones_.
+![Recolección de café](fondo/bayas-cafe-1-scaled.jpg)
+Fuente del texto: el país 
 
-En la siguiente imagen, podrás ver cómo con la data que que se ve en la parte
-izquierda se puede construir una interfaz amigable y entendible por las
-usuarias, al lado derecho.
-
-![pokemon-data-to-ui](https://user-images.githubusercontent.com/12631491/218505816-c6d11758-9de4-428f-affb-2a56ea4d68c4.png)
 
 ## 2. Resumen del proyecto
 
-En este proyecto **construirás una _página web_ para visualizar un
-_conjunto (set) de datos_** que vas a generar con [prompting](https://www.itmadrid.com/que-es-un-prompt-en-inteligencia-artificial-ia/).
-Esta página web se adecuará a lo que descubras que tu usuaria
-necesita.
+Este proyecto es una visualización que sirve de ayuda al usuario de café de especialidad para recurrir a una guía que va a desplegar información específica de 24 tipos de preparaciones de café que son las que más abundan en las cafeterías
 
-Además, en este proyecto utilizarás herramientas de
+Además, este proyecto fue apoyado por herramientas de
 [inteligencia artificial](https://es.wikipedia.org/wiki/Inteligencia_artificial)
 como [ChatGPT](https://openai.com/chatgpt), [ExplainDev](https://explain.dev/),
-entre otras para generar un set de datos en un archivo javascript.
+entre otras para generar un set de datos.
 
-El propósito de generar los datos en esta manera es brindarte la oportunidad de
-adentrarte en el empleo de herramientas impulsadas por la inteligencia
-artificial, así como en [técnicas de prompting](https://learnprompting.org/es/docs/intro).
-
-Como entregable final tendrás una página web que permita **visualizar la data,
+Tendrás una página web que permita **visualizar la data,
 filtrarla, ordenarla y calcular alguna estadística**. Con estadística
 nos referimos a distintos cálculos que puedes hacer con los datos para mostrar
 información aún más relevante a las usuarias (promedio, el valor máximo
@@ -101,19 +87,20 @@ tener:
   y el atributo
   [`itemprop`](https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/itemprop).
 
-  Por ejemplo, la siguiente data correspondiente a Ada Lovelace:
+  Por ejemplo, la siguiente data correspondiente a preparaciones de cafés:
 
   ```json
     {
-      "id": "ada-lovelace",
-      "name": "Ada Lovelace",
-      "shortDescription": "Pionera de la informática, fue la primera programadora.",
-      "description": "Una visionaria del siglo XIX ...",
-      "imageUrl": "URL_DE_LA_IMAGEN_GENERADA",
+      "id": "cafe-espresso",
+      "name": "Espresso",
+      "shortDescription": "Esta preparación tiene una relación de agua y café 1:2.",
+      "description": "Se popularizó gracias al desarrollo y perfeccionamiento de la máquina de espresso por parte de Luigi Bezzera en 1901. Esta máquina permitía una extracción rápida y bajo presión del café molido, produciendo una bebida concentrada y sabrosa que se convirtió en un símbolo de la cultura del café italiana. El término proviene del italiano y significa 'exprimido' haciendo referencia al proceso de extracción del café bajo presión. La creación del espresso revolucionó la forma en que se preparaba y consumía el café, dando lugar a una bebida más concentrada y más intensa que las preparaciones de café tradicionales.",
+      "imageUrl": ""/images/espresso.jpg"",
       "facts": {
-        "yearOfBirth": 1843,
-        "placeOfBirth": "London, England",
-        "mainField": "Computer Science",
+        "Origin": "Italia, Milán",
+        "Time": "25-35 segundos aproximadamente.",
+        "grinder": "fina",
+        "percentage": "65% de café y 35% agua mineralizada.",
       }
     }
   ```
@@ -121,20 +108,20 @@ tener:
   puede ser estructurada semánticamente en HTML como:
 
   ```html
-   <dl itemscope itemtype="WomenInTech">
-    <img src="URL_DE_LA_IMAGEN_GENERADA" alt="Ada Lovelace" />
-    <dt>Nombre:</dt><dd itemprop="name">Ada Lovelace</dd>
-    <dt>Descripción:</dt><dd itemprop="description">Pionera de la informática, fue la primera programadora.</dd>
-    <dt>Año de nacimiento:</dt><dd itemprop="yearOfBirth">1843</dd>
-    <dt>Lugar de nacimiento:</dt><dd itemprop="placeOfBirth">London, England</dd>
-    <dt>Campo de desempeño:</dt><dd itemprop="mainField">Computer Science</dd>
+   <dl itemscope itemtype="CoffeeMenu">
+    <img src="URL_DE_LA_IMAGEN_GENERADA" alt="Café espresso" />
+    <dt>Nombre:</dt><dd itemprop="name">Espresso</dd>
+    <dt>Descripción:</dt><dd itemprop="description">Esta preparación tiene una relación de agua y café 1:2.</dd>
+    <dt>Origen de la preparación:</dt><dd itemprop="origin"> Italia </dd>
+    <dt>Tiempo de extracción:</dt><dd itemprop="time">25-35 segundos aproximadamente </dd>
+    <dt>Molienda:</dt><dd itemprop="grinder"> Fina </dd>
   </dl>
   ```
 
 * La aplicación debe calcular y visualizar una estadística de la data. Puede
   ser una propiedad computada de cada item, como una propiedad adicional
-  (por ejemplo, el índice de masa corporal de cada pokemon) o unas estadísticas
-  de la data completa (por ejemplo, total de personas nacidas en los años 80s).
+  (por ejemplo, el porcentaje de cada preparación de café) o unas estadísticas
+  de la data completa (por ejemplo, el café más popular de la data).
 
 * La aplicación debe permitir a la usuaria filtrar la data. Deberás usar
   un elemento [`<select>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/select)
@@ -164,9 +151,9 @@ tener:
     tendrá un atributo `name="sort-order"`, y tiene values `asc` y `desc`.
 
 * Las funcionalidades de ordenar deben operar sobre la data filtrada.
-  Por ejemplo, si filtro los pokemones de tipo fuego y luego los ordeno por
+  Por ejemplo, si filtro los cafés por origen y luego los ordeno por
   nombre ascendente, la aplicación deberá mantener el filtro aplicado y
-  ordenar los pokemones de tipo fuego.
+  ordenar los cafés por origen.
 
 * La aplicación debe permitir a la usuaria reiniciar la aplicación, limpiando
   filtros y ordenamiento, con un `<button>` con un atributo de datos
@@ -229,6 +216,33 @@ como toda la configuración de dependencias:
 Como en el proyecto anterior, existe un archivo `index.html`. Como ya sabes,
 acá va la página que se mostrará a la usuaria. También nos sirve para indicar
 qué scripts se usarán y unir todo lo que hemos hecho.
+
+### `src/view.js`
+
+Para alcanzar una mejor separación de responsabilidades en el código, éste
+archivo debe tener todas las funciones que se utilizarán para renderizar
+los elementos dinámicamente.
+
+Al menos se requiere una función obligatoria:
+
+* `renderItems(data)`: esta función recibe el arreglo de data para renderizar
+  los elementos de cada item, y debería volver un elemento DOM o
+  un string de HTML.
+
+Recuerda que todas las funciones que se encuentren en este
+archivo deberán ser exportadas para poder ser utilizadas en
+otros archivos.
+
+Recomendamos esta estructura para no solo proporcionar un marco claro y
+organizado para el proyecto, facilitando la navegación comprensión, y
+escalabilidad del código, sino también para seguir un principio de diseño
+[Separación de Responsabilidades](https://dev.to/tamerlang/separation-of-concerns-the-simple-way-4jp2)
+en codigo, donde cada archivo y carpeta
+tiene una responsabilidad específica. La responsabilidad de los funciones en
+`view.js` es para crear partes del DOM con la data.
+
+Esta no es la única forma de dividir tu código, puedes usar más archivos y
+carpetas, siempre y cuando la estructura sea clara para tus compañeras.
 
 ### `src/main.js`
 
@@ -296,32 +310,6 @@ vas a crear una muestra de la data que quieres probar. Como mínimo
 debes exportar un variable se llama `data`, pero puedes definir y exportar mas
 si sea necesario para tus tests.
 
-### `src/view.js`
-
-Para alcanzar una mejor separación de responsabilidades en el código, éste
-archivo debe tener todas las funciones que se utilizarán para renderizar
-los elementos dinámicamente.
-
-Al menos se requiere una función obligatoria:
-
-* `renderItems(data)`: esta función recibe el arreglo de data para renderizar
-  los elementos de cada item, y debería volver un elemento DOM o
-  un string de HTML.
-
-Recuerda que todas las funciones que se encuentren en este
-archivo deberán ser exportadas para poder ser utilizadas en
-otros archivos.
-
-Recomendamos esta estructura para no solo proporcionar un marco claro y
-organizado para el proyecto, facilitando la navegación comprensión, y
-escalabilidad del código, sino también para seguir un principio de diseño
-[Separación de Responsabilidades](https://dev.to/tamerlang/separation-of-concerns-the-simple-way-4jp2)
-en codigo, donde cada archivo y carpeta
-tiene una responsabilidad específica. La responsabilidad de los funciones en
-`view.js` es para crear partes del DOM con la data.
-
-Esta no es la única forma de dividir tu código, puedes usar más archivos y
-carpetas, siempre y cuando la estructura sea clara para tus compañeras.
 
 ## 6. Hitos
 
@@ -485,26 +473,41 @@ crearán estos elementos.
 
 #### Definición del producto
 
-Documenta brevemente tu trabajo en el archivo `README.md` de tu repositorio,
-contándonos cómo fue tu proceso de diseño y cómo crees que el producto resuelve
-el problema (o problemas) que tiene tu usuaria.
+He desarrollado una interfaz de usuarios diseñada específicamente para consumidores de café. Esta interfaz proporciona una amplia gama de información detallada sobre las preparaciones de café más comunes, lo que permite a los usuarios comprender mejor cada opción disponible y tomar decisiones más informadas al momento de ordenar.
+
+Se espera que la implementación de esta interfaz de usuarios en las cafeterías proporcione beneficios significativos tanto para los consumidores como para los profesionales a cargo de la preparación de café. Los usuarios podrán disfrutar de una experiencia más personalizada y satisfactoria, mientras que los profesionales contarán con una herramienta adicional para garantizar la precisión y la calidad de los pedidos.
+foto>
+
 
 #### Historias de usuario
 
-Una vez que entiendas las necesidades de tus usuarias, escribe las
-[Historias de Usuaria](https://es.wikipedia.org/wiki/Historias_de_usuario)
-que representen
-todo lo que la usuaria necesita hacer/ver. Las **Historias de Usuario** deben
-ser el resultado de tu proceso de investigación o _research_ de tus usuarias.
+* Historia de Usuario: Interfaz de Usuarios para Cafetería
 
-Asegúrate de incluir la definición de terminado (_definition of done_) y los
-Criterios de Aceptación para cada una.
+* Descripción:
+Como usuario frecuente de cafeterías, me he dado cuenta de un problema recurrente al llegar a estos establecimientos: la dificultad para reconocer ciertas preparaciones de café, entender su contenido y comprender el tiempo de preparación asociado a cada una. Esto conlleva a situaciones en las que, al realizar mi pedido al profesional a cargo, termino recibiendo un producto que no cumple con mis expectativas debido a una descripción vaga o incorrecta de lo que realmente deseo.
 
-Usa tus historias de usuario para planificar tus sprints dividiendo
-cada historia en tareas.
+* Problema:
+* Desconocimiento de Preparaciones: 
+Al llegar a la cafetería, me encuentro con una amplia variedad de preparaciones de café, muchas de las cuales desconozco por completo.
+* Falta de Información Detallada: 
+La falta de información detallada sobre cada preparación dificulta mi capacidad para tomar decisiones informadas al momento de realizar mi pedido.
+* Descontento con el Producto Final: 
+La discrepancia entre lo que creo que estoy pidiendo y lo que realmente recibo conduce a una experiencia insatisfactoria como cliente.
+* Solución Propuesta:
+Para abordar este problema, he desarrollado una interfaz de usuarios diseñada específicamente para consumidores de café. Esta interfaz proporciona una amplia gama de información detallada sobre las preparaciones de café más comunes, lo que permite a los usuarios comprender mejor cada opción disponible y tomar decisiones más informadas al momento de ordenar.
 
-En la medida de lo posible, termina una Historia de Usuario antes de pasar
-a la siguiente (cumpliendo con la Definición de Terminado y los Criterios de Aceptación).
+* Características de la Interfaz de Usuarios:
+* 1- Data Descriptiva de 24 preparaciones: 
+La interfaz incluye una extensa base de datos en formato de `cards` que describe en detalle 24 preparaciones de café, abarcando desde los clásicos espresso y americano hasta opciones más elaboradas como el macchiato y el frappé.
+* 2- Consulta por opción de filtros: 
+Los usuarios pueden consultar fácilmente cada preparación por su nombre, como también aplicar filtros y orden a la data y obtener información detallada sobre su contenido, método de preparación y tiempo estimado de elaboración.
+* 3- Facilidad de Uso: 
+La interfaz está diseñada para ser intuitiva y de fácil navegación, lo que garantiza una experiencia fluida para los usuarios, incluso aquellos que no están familiarizados con la terminología específica del café.
+* 4- Mejora la Experiencia del Cliente: 
+Al permitir a los usuarios tomar decisiones más informadas y precisas al realizar sus pedidos, la interfaz contribuye a mejorar la satisfacción general del cliente y a reducir la incidencia de errores en la preparación de los productos.
+* 5- Resultados Esperados:
+Se espera que la implementación de esta interfaz de usuarios en las cafeterías proporcione beneficios significativos tanto para los consumidores como para los profesionales a cargo de la preparación de café. Los usuarios podrán disfrutar de una experiencia más personalizada y satisfactoria, mientras que los profesionales contarán con una herramienta adicional para garantizar la precisión y la calidad de los pedidos.
+foto> 
 
 #### Generar los datos
 
@@ -538,22 +541,14 @@ debe ser la siguiente:
 
   ```json
   "facts": {
-    "yearOfBirth": 1843,
-    "placeOfBirth": "London, England",
-    "mainField": "Computer Science",
+    "origin": "Italia",
+    "time": "25-35 segundos aproximadamente.",
+    "grinder": "fina",
   }
   ```
 
   Los _nombres de las propiedades_, deben estar en formato _camelCase_.
   Por ejemplo **ninguno** de los siguientes nombres sería válido:
-
-  ```json
-  "facts": {
-    "year_of_birth": 1843,
-    "Place of Birth": "London, England",
-    "MainField": "Computer Science",
-  }
-  ```
 
   Los _valores de las propiedades_, sólo pueden ser de tipo `number`, `boolean`
   o un `string` de no más de 64 caracteres (este **no** tiene restricciones sobre
@@ -569,39 +564,8 @@ debe ser la siguiente:
 * `extraInfo`: Y por último un campo libre opcional, similar a `facts`. Si lo
   necesitas, aquí puedes poner cualquier otro tipo de información en formato
   donde puedes poner otra info que necesites en formato `"nombre": "valor"`,
-  pero sin restricciones sobre el tipo de dato del valor. Por ejemplo:
+  pero sin restricciones sobre el tipo de dato del valor.
 
-  ```json
-  "extraInfo": {
-    "imagePrompt": "Un texto bien, bien largo...",
-    "writings": [
-      "Vol. 1",
-      "Vol. 2",
-      "Vol. 3",
-      "Vol. 4"
-    ]
-  }
-  ```
-
-Un ejemplo de data, según los requisitos anteriores podría ser:
-
-```js
-export default [
-  {
-    "id": "ada-lovelace",
-    "name": "Ada Lovelace",
-    "shortDescription": "Pionera de la informática, fue la primera programadora.",
-    "description": "Una visionaria del siglo XIX ...",
-    "imageUrl": "URL_DE_LA_IMAGEN_GENERADA",
-    "facts": {
-      "yearOfBirth": 1843,
-      "placeOfBirth": "London, England",
-      "mainField": "Computer Science",
-    }
-  },
-  //... 23 objetos más
-]
-```
 
 La data generada deberás reemplazarla por el contenido de este archivo:
 `./src/data/dataset.js`.
@@ -638,28 +602,22 @@ Utilizarás el mismo dataset en el proyecto Dataverse Chat.
 
 #### Prompt utilizado
 
-Dentro del readme que armarás, debe incluir una captura de pantalla
-de tu prompt utilizado para generar los datos. Si utilizaste varios prompts,
-puedes adjuntar todas las capturas que necesites.
+El prompt utilizado para este proyecto fueron principalmente dos, donde lo primero fue generar las imágenes que graficamente mostraran una representación gráfica del contenido de café, como verán en la siguiente imagen:
+
+![Prompt IA Bing](src/fondo/Screenshot%202024-04-04%20122334.png)
+
+y el segundo prompt fue generar la información que irían en la descripción de las cards, como se muestra en las siguientes imágenes:
+
+![Descripciones](src/fondo/respuestaPrompt.png)
+![Elaboración de la información](src/fondo/prompt.png)
 
 #### Diseño de la Interfaz de Usuaria
 
-##### Prototipo de alta fidelidad
+El diseño fue creado en un principio de manera muy organica haciendo bocetos de lo que esperábamos como se estructurarían nuestras imágenes en las tarjetas.
 
-Usando los wireframes o bocetos (_sketches_) de tu solución de interfaz
-como base, lo siguiente es diseñar tu Interfaz de Usuaria (UI por sus
-siglas en inglés - _User Interface_). Para eso debes aprender a
-utilizar alguna herramienta de diseño visual.
-Nosotros te recomendamos [Figma](https://www.figma.com/) que es
-una herramienta que funciona en el navegador y, además, puedes crear una cuenta
-gratis. Sin embargo, eres libre de utilizar otros editores gráficos como
-Illustrator, Photoshop, etc.
+![prototipo](src/fondo/Screenshot%202024-05-07%20220432.png)
+![cards](src/fondo/Screenshot%202024-05-07%20220628.png)
 
-El diseño debe representar el _ideal_ de tu solución. Digamos que es lo que
-desearías implementar si tuvieras tiempo ilimitado para trabajar. Además, tu
-diseño debe seguir los fundamentos de _visual design_.
-
-Recuerda pedir feedback de tu prototipo a tus compañeras y/o coaches.
 
 #### Testeos de usabilidad
 
@@ -688,245 +646,6 @@ Tus _pruebas unitarias_ deben dar una cobertura del 70% de _statements_
 (_sentencias_), _functions_ (_funciones_), _lines_ (_líneas_), y _branches_
 (_ramas_) del archivo `src/dataFunctions.js` que contenga tus funciones y
 está detallado en la sección de [Consideraciones técnicas](#src/data.js).
-
-## 8. Hacker edition
-
-Las secciones llamadas _Hacker Edition_ son **opcionales**. Si **terminaste**
-con todo lo anterior y te queda tiempo, intenta completarlas. Así podrás
-profundizar y/o ejercitar más sobre los objetivos de
-aprendizaje del proyecto.
-
-Features/características extra sugeridas:
-
-* Visualizar la estadística calculada mediante un gráfico. Para
-  ello te recomendamos explorar librerías de gráficas como
-  [Chart.js](https://www.chartjs.org/)
-  o [Google Charts](https://developers.google.com/chart/).
-* 100% Coverage
-
-## 9. Objetivos de aprendizaje
-
-
-Reflexiona y luego marca los objetivos que has llegado a entender y aplicar en tu proyecto. Piensa en eso al decidir tu estrategia de trabajo.
-
-### HTML
-
-- [ ] **Uso de HTML semántico**
-
-  <details><summary>Links</summary><p>
-
-  * [HTML semántico](https://curriculum.laboratoria.la/es/topics/html/html5/semantic-html)
-  * [Semantics - MDN Web Docs Glossary](https://developer.mozilla.org/en-US/docs/Glossary/Semantics#Semantics_in_HTML)
-</p></details>
-
-### CSS
-
-- [ ] **Uso de selectores de CSS**
-
-  <details><summary>Links</summary><p>
-
-  * [Intro a CSS](https://curriculum.laboratoria.la/es/topics/css/css/intro-css)
-  * [CSS Selectors - MDN](https://developer.mozilla.org/es/docs/Web/CSS/CSS_Selectors)
-</p></details>
-
-- [ ] **Modelo de caja (box model): borde, margen, padding**
-
-  <details><summary>Links</summary><p>
-
-  * [Box Model & Display](https://curriculum.laboratoria.la/es/topics/css/css/boxmodel-and-display)
-  * [The box model - MDN](https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/The_box_model)
-  * [Introduction to the CSS box model - MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Box_Model/Introduction_to_the_CSS_box_model)
-  * [CSS display - MDN](https://developer.mozilla.org/pt-BR/docs/Web/CSS/display)
-  * [display - CSS Tricks](https://css-tricks.com/almanac/properties/d/display/)
-</p></details>
-
-- [ ] **Uso de flexbox en CSS**
-
-  <details><summary>Links</summary><p>
-
-  * [A Complete Guide to Flexbox - CSS Tricks](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
-  * [Flexbox Froggy](https://flexboxfroggy.com/#es)
-  * [Flexbox - MDN](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Flexbox)
-</p></details>
-
-### Web APIs
-
-#### DOM (Document Object Model)
-
-- [ ] **Uso de selectores del DOM**
-
-  <details><summary>Links</summary><p>
-
-  * [Manipulación del DOM](https://curriculum.laboratoria.la/es/topics/browser/dom/1-dom-methods-selection)
-  * [Introducción al DOM - MDN](https://developer.mozilla.org/es/docs/Web/API/Document_Object_Model/Introduction)
-  * [Localizando elementos DOM usando selectores - MDN](https://developer.mozilla.org/es/docs/Web/API/Document_object_model/Locating_DOM_elements_using_selectors)
-</p></details>
-
-- [ ] **Manejo de eventos del DOM (listeners, propagación, delegación)**
-
-  <details><summary>Links</summary><p>
-
-  * [Introducción a eventos - MDN](https://developer.mozilla.org/es/docs/Learn/JavaScript/Building_blocks/Events)
-  * [EventTarget.addEventListener() - MDN](https://developer.mozilla.org/es/docs/Web/API/EventTarget/addEventListener)
-  * [EventTarget.removeEventListener() - MDN](https://developer.mozilla.org/es/docs/Web/API/EventTarget/removeEventListener)
-  * [El objeto Event](https://developer.mozilla.org/es/docs/Web/API/Event)
-</p></details>
-
-- [ ] **Manipulación dinámica del DOM**
-
-  <details><summary>Links</summary><p>
-
-  * [Introducción al DOM](https://developer.mozilla.org/es/docs/Web/API/Document_Object_Model/Introduction)
-  * [Node.appendChild() - MDN](https://developer.mozilla.org/es/docs/Web/API/Node/appendChild)
-  * [Document.createElement() - MDN](https://developer.mozilla.org/es/docs/Web/API/Document/createElement)
-  * [Document.createTextNode()](https://developer.mozilla.org/es/docs/Web/API/Document/createTextNode)
-  * [Element.innerHTML - MDN](https://developer.mozilla.org/es/docs/Web/API/Element/innerHTML)
-  * [Node.textContent - MDN](https://developer.mozilla.org/es/docs/Web/API/Node/textContent)
-</p></details>
-
-### JavaScript
-
-- [ ] **Variables (declaración, asignación, ámbito)**
-
-  <details><summary>Links</summary><p>
-
-  * [Valores, tipos de datos y operadores](https://curriculum.laboratoria.la/es/topics/javascript/basics/values-variables-and-types)
-  * [Variables](https://curriculum.laboratoria.la/es/topics/javascript/basics/variables)
-</p></details>
-
-- [ ] **Uso de condicionales (if-else, switch, operador ternario, lógica booleana)**
-
-  <details><summary>Links</summary><p>
-
-  * [Estructuras condicionales y repetitivas](https://curriculum.laboratoria.la/es/topics/javascript/flow-control/conditionals-and-loops)
-  * [Tomando decisiones en tu código — condicionales - MDN](https://developer.mozilla.org/es/docs/Learn/JavaScript/Building_blocks/conditionals)
-</p></details>
-
-- [ ] **Uso de bucles/ciclos (while, for, for..of)**
-
-  <details><summary>Links</summary><p>
-
-  * [Bucles (Loops)](https://curriculum.laboratoria.la/es/topics/javascript/flow-control/loops)
-  * [Bucles e iteración - MDN](https://developer.mozilla.org/es/docs/Web/JavaScript/Guide/Loops_and_iteration)
-</p></details>
-
-- [ ] **Funciones (params, args, return)**
-
-  <details><summary>Links</summary><p>
-
-  * [Funciones (control de flujo)](https://curriculum.laboratoria.la/es/topics/javascript/flow-control/functions)
-  * [Funciones clásicas](https://curriculum.laboratoria.la/es/topics/javascript/functions/classic)
-  * [Arrow Functions](https://curriculum.laboratoria.la/es/topics/javascript/functions/arrow)
-  * [Funciones — bloques de código reutilizables - MDN](https://developer.mozilla.org/es/docs/Learn/JavaScript/Building_blocks/Functions)
-</p></details>
-
-- [ ] **Uso de linter (ESLINT)**
-
-- [ ] **Uso de identificadores descriptivos (Nomenclatura y Semántica)**
-
-- [ ] **Diferenciar entre expresiones (expressions) y sentencias (statements)**
-
-#### Tipos de datos
-
-- [ ] **Diferenciar entre tipos de datos primitivos y no primitivos**
-
-- [ ] **Arrays (arreglos)**
-
-  <details><summary>Links</summary><p>
-
-  * [Arreglos](https://curriculum.laboratoria.la/es/topics/javascript/arrays)
-  * [Array - MDN](https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/Array/)
-  * [Array.prototype.sort() - MDN](https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/Array/sort)
-  * [Array.prototype.forEach() - MDN](https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/Array/forEach)
-  * [Array.prototype.map() - MDN](https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/Array/map)
-  * [Array.prototype.filter() - MDN](https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/Array/filter)
-  * [Array.prototype.reduce() - MDN](https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/Array/Reduce)
-</p></details>
-
-- [ ] **Objetos (key, value)**
-
-  <details><summary>Links</summary><p>
-
-  * [Objetos en JavaScript](https://curriculum.laboratoria.la/es/topics/javascript/objects/objects)
-</p></details>
-
-#### Testing en Javascript
-
-- [ ] **Pruebas unitarias (unit tests)**
-
-  <details><summary>Links</summary><p>
-
-  * [Empezando con Jest - Documentación oficial](https://jestjs.io/docs/es-ES/getting-started)
-</p></details>
-
-#### Módulos
-
-- [ ] **Módulos de ECMAScript (ES Modules)**
-
-  <details><summary>Links</summary><p>
-
-  * [import - MDN](https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Statements/import)
-  * [export - MDN](https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Statements/export)
-</p></details>
-
-### Control de Versiones (Git y GitHub)
-
-#### Git
-
-- [ ] **Git: Instalación y configuración**
-
-- [ ] **Git: Control de versiones con git (init, clone, add, commit, status, push, pull, remote)**
-
-- [ ] **Git: Integración de cambios entre ramas (branch, checkout, fetch, merge, reset, rebase, tag)**
-
-#### GitHub
-
-- [ ] **GitHub: Creación de cuenta y repos, configuración de llaves SSH**
-
-- [ ] **GitHub: Despliegue con GitHub Pages**
-
-  <details><summary>Links</summary><p>
-
-  * [Sitio oficial de GitHub Pages](https://pages.github.com/)
-</p></details>
-
-- [ ] **GitHub: Colaboración en Github (branches | forks | pull requests | code review | tags)**
-
-### Centrado en el usuario
-
-- [ ] **Diseñar y desarrollar un producto o servicio poniendo a las usuarias en el centro**
-
-### Diseño de producto
-
-- [ ] **Crear prototipos de alta fidelidad que incluyan interacciones**
-
-- [ ] **Seguir los principios básicos de diseño visual**
-
-### Investigación
-
-- [ ] **Planear y ejecutar testeos de usabilidad de prototipos en distintos niveles de fidelidad**
-
-  <details><summary>Links</summary><p>
-
-  * [Intro a testeos usabilidad](https://coda.io/@bootcamp-laboratoria/contenido-ux/test-de-usabilidad-15)
-  * [Pruebas con Usuarios 1 — ¿Qué, cuándo y para qué testeamos?](https://eugeniacasabona.medium.com/pruebas-con-usuarios-1-qu%C3%A9-cu%C3%A1ndo-y-para-qu%C3%A9-testeamos-7c3a89b4b5e7)
-</p></details>
-
-### AI Prompting
-
-- [ ] **Dando Instrucciones**
-
-  <details><summary>Links</summary><p>
-
-  * [Dando Instrucciones | Learn Prompting: Your Guide to Communicating with AI](https://learnprompting.org/es/docs/basics/instructions)
-</p></details>
-
-- [ ] **Few shot prompting**
-
-  <details><summary>Links</summary><p>
-
-  * [Few shot prompting | Learn Prompting: Your Guide to Communicating with AI](https://learnprompting.org/es/docs/basics/few_shot)
-</p></details>
 
 ## 10. Pistas, tips y lecturas complementarias
 
