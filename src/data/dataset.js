@@ -58,7 +58,7 @@ export default [
       "origen": "Italia",
       "tiempoDeExtraccion": "25-35 segundos aproximadamente.",
       "molienda": "Superfina",
-      "mainField": "dosis de café espresso y leche emulsionada."
+      "contenido": "dosis de café espresso y leche emulsionada."
     },
     "extraInfo": {
       "imageSource": "https://www.bing.com/images/create/design-an-inspiring-and-historically-accurate-imag/6510df7e7bb745f69d67f695441607a8"
